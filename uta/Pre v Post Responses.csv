@@ -1,0 +1,19 @@
+ID,Plant,Animal,Meal_Selection,Major,Gender,Ethnicity,Hispanic,Diet pattern,Meal Provided,Meal Satisfaction,Meal Taste/Flavor,Consumption,Select Choice Again,Plant-based Importance,"How much do you agree with the following statement: - ""Replacing meat with plant-based foods will improve diet quality and overall health.""",Do plant-based protein foods have the same amount of nutrients as animal-based protein foods?
+DVB1,Stay with the plant-based (meatless) meal,,Plant,,,,,Flexitarian,Plant,Slightly Dissatisfied,Moderately Liked,Almost all of it,I'm not sure,Other,Moderately Disagree,Yes
+DVB2,Stay with the plant-based (meatless) meal,,Plant,Public Health,Male,Asian,No,Flexitarian,Plant,Slightly Dissatisfied,Moderately Liked,All of it,No,Environmental Impact,Slightly Agree,No
+DVB3,,Stay with the meal containing meat,Meat,Human development and family sciences,Female,White,Yes,Omnivorous,Meat,Slightly Satisfied,Slightly Liked,Almost all of it,I'm not sure,Eating plant-based meals is not important to me.,Neither Agree or Disagree,No
+DVB4,Stay with the plant-based (meatless) meal,,Plant,,,,,,Meat,Extremely Satisfied,Extremely Liked,All of it,Yes,Environmental Impact,Extremely Agree,Yes
+DVB5,Stay with the plant-based (meatless) meal,,Plant,Biochemistry,Female,Asian,No,Omnivorous,Plant,Slightly Dissatisfied,Slightly Disliked,Almost all of it,No,Environmental Impact,Slightly Agree,Yes
+DVB6,,Stay with the meal containing meat,Meat,"Biology, Environmental Science",Female,White,No,Omnivorous,Meat,Slightly Satisfied,Slightly Liked,About 1/2,Yes,Eating plant-based meals is not important to me.,Slightly Agree,No
+DVB7,Stay with the plant-based (meatless) meal,,Plant,Biology and Neuroscience,,,,Lacto-ovo-vegetarian,Plant,Extremely Satisfied,Extremely Liked,All of it,Yes,Other,Slightly Agree,No
+DVB8,Stay with the plant-based (meatless) meal,,Plant,Computer Science and Math,Female,White,No,Vegan,Plant,Moderately Satisfied,Moderately Liked,All of it,Yes,Environmental Impact,Extremely Agree,Yes
+DVB9,,Stay with the meal containing meat,Meat,Chemistry Honors,Female,"White,Asian",No,Omnivorous,Meat,Moderately Satisfied,Moderately Liked,All of it,Yes,Health,Slightly Agree,No
+DVB10,,Switch to a plant-based (meatless) meal,Switched_Plant,Biochemistry,Female,Asian,No,Lacto-ovo-vegetarian,Plant,Moderately Satisfied,Slightly Liked,All of it,No,Health,Extremely Agree,No
+DVB11,Switch to a meal with meat,,Switched_Meat,Computer Science and Math,Male,Asian,No,Omnivorous,Meat,Extremely Satisfied,Extremely Liked,All of it,Yes,Delicious,Slightly Agree,No
+DVB12,Switch to a meal with meat,,Switched_Meat,Biology,Female,Asian,Prefer not to say,Omnivorous,Meat,Neither Satisfied nor Dissatisfied,Neither Liked nor Disliked,A few bites,No,Eating plant-based meals is not important to me.,Slightly Agree,No
+DVB13,,Switch to a plant-based (meatless) meal,Switched_Plant,"BSA Biology, honors",Male,White,No,Vegan,Plant,Moderately Satisfied,Moderately Liked,All of it,Yes,Environmental Impact,Moderately Agree,Yes
+DVB14,Switch to a meal with meat,,Switched_Meat,Neuroscience,Female,Asian,No,Omnivorous,Meat,Moderately Satisfied,Slightly Liked,All of it,I'm not sure,Eating plant-based meals is not important to me.,Slightly Disagree,No
+DVB15,,Stay with the meal containing meat,Meat,,,,,Prefer not to say,Meat,Extremely Satisfied,Extremely Liked,All of it,Yes,Environmental Impact,Slightly Disagree,No
+DVB16,,Stay with the meal containing meat,Meat,,,,,,Meat,Extremely Satisfied,Extremely Liked,All of it,Yes,Health,Neither Agree or Disagree,No
+DVB17,Stay with the plant-based (meatless) meal,,Plant,public health,Female,Black or African American,No,Pollotarian,Plant,Extremely Satisfied,Extremely Liked,Almost all of it,Yes,Health,Moderately Agree,Yes
+DVB18,,Switch to a plant-based (meatless) meal,Switched_Plant,Neuroscience,Female,Asian,No,Lacto-vegetarian,Plant,Slightly Dissatisfied,Moderately Disliked,About 1/2,No,Other,Moderately Agree,Yes
