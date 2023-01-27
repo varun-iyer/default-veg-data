@@ -1,0 +1,79 @@
+mealSelection,dietaryInfo,age,race,ethnicity,employment,mealEaten,satisfaction,importance,rationale
+Stay with the plant-based meal,Pescatarian,25-34 years old,Mexican American,Hispanic/Latinx,Graduate Student,Plant-based,Very satisfied,Health,NA
+Stay with the meal with meat,Pescatarian,35-44 years old,Black or African American,Non-Hispanic/Non-Latinx,Graduate Student,Plant-based,Satisfied,Health,NA
+Stay with the meal with meat,NA,25-34 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,Meat,Very satisfied,Environmental impact,NA
+Stay with the plant-based meal,Pescatarian,NA,NA,NA,Graduate Student,Plant-based,Satisfied,Environmental impact,NA
+Stay with the plant-based meal,N/A,18-24 years old,Latino,Hispanic/Latinx,Graduate Student,Meat,Satisfied,Environmental impact,I don’t always eat plant bases but I try to now and then due to the lower carbon footprint and all the other reasons listed above
+Switch to a plant-based meal,Vegetarian,25-34 years old,Black or African American,Hispanic/Latinx,Staff,Plant-based,Very satisfied,Health,NA
+Stay with the plant-based meal,NA,18-24 years old,Mixed (Mestiza),Hispanic/Latinx,Graduate Student,Plant-based,Satisfied,Environmental impact,NA
+Stay with the plant-based meal,Pescatarian,25-34 years old,White,Non-Hispanic/Non-Latinx,Graduate Student,Plant-based,Very satisfied,Delicious,NA
+Stay with the meal with meat,NA,65-74 years old,White,Non-Hispanic/Non-Latinx,Faculty,Meat,Very satisfied,NA,NA
+Stay with the plant-based meal,NA,25-34 years old,White,Non-Hispanic/Non-Latinx,Graduate Student,Plant-based,Very satisfied,Delicious,I don't often crave meat and usually prefer plant based options
+Stay with the meal with meat,NA,25-34 years old,White,Hispanic/Latinx,Graduate Student,Meat,Satisfied,Environmental impact,It is important to take care of the planet 
+Stay with the meal with meat,NA,25-34 years old,Prefer not to say,Hispanic/Latinx,Graduate Student,Meat,Unsatisfied,Eating plant based gives options to vegans and vegetarians,"Some people have food restrictions or preferences for the foods that can be eaten. Although a plant based option was available, it was not vegan so some individuals could not eat. The broccoli had meat bits, the pesto pasta was made with cheese. I eat plant based to others have options."
+Stay with the meal with meat,NA,25-34 years old,Prefer not to say,Hispanic/Latinx,Graduate Student,Meat,Satisfied,Environmental impact,NA
+Switch to a meal with meat,NA,25-34 years old,NA,Hispanic/Latinx,Graduate Student,Meat,Satisfied,Eating plant-based meals is not important to me,NA
+Stay with the plant-based meal,Halal,18-24 years old,Arab,Non-Hispanic/Non-Latinx,Graduate Student,Plant-based,Neither satisfied or unsatisfied,For religious purposes ,"I eat meat, however it has to be Halal so for that reason I oftentimes opt for vegetarian options :)"
+Stay with the plant-based meal,NA,25-34 years old,White,Hispanic/Latinx,Graduate Student,Plant-based,Very satisfied,Environmental impact,NA
+Switch to a plant-based meal,Vegetarian,25-34 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,Plant-based,Very satisfied,Religious reasons,I follow and practice an Indian religion called Hinduism and because of that I have been a vegetarian since my birth.
+Stay with the meal with meat,No pork,55-64 years old,White,Non-Hispanic/Non-Latinx,Faculty,Meat,Satisfied,Environmental impact,NA
+Stay with the plant-based meal,Vegan,18-24 years old,White,Non-Hispanic/Non-Latinx,Graduate Student,Plant-based,Very satisfied,Environmental impact,NA
+Stay with the plant-based meal,NA,25-34 years old,White,Hispanic/Latinx,Graduate Student,Plant-based,Very satisfied,Health,If I can’t confirm the quality of the meat I would rather go plant based. 
+Stay with the meal with meat,no pork,18-24 years old,White,Non-Hispanic/Non-Latinx,Graduate Student,Meat,Unsatisfied,Eating plant-based meals is not important to me,NA
+Stay with the meal with meat,NA,25-34 years old,Prefer not to say,Hispanic/Latinx,Graduate Student,Meat,Satisfied,Eating plant-based meals is not important to me,NA
+Stay with the meal with meat,NA,25-34 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,Meat,Satisfied,Environmental impact,NA
+Switch to a plant-based meal,NA,25-34 years old,NA,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,Meat,18-24 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,25-34 years old,White,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,Pescatarian,25-34 years old,Black or African American,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,NA,25-34 years old,White,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,NA,18-24 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,25-34 years old,White,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a plant-based meal,Vegetarian,45-54 years old,White,Non-Hispanic/Non-Latinx,Faculty,NA,NA,NA,NA
+Stay with the meal with meat,NA,25-34 years old,White,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,I do not eat red meat (chicken and fish okay),25-34 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,NA,18-24 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,45-54 years old,NA,Non-Hispanic/Non-Latinx,Faculty,NA,NA,NA,NA
+Stay with the meal with meat,NA,25-34 years old,Prefer not to say,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,Pescatarian,25-34 years old,White,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,25-34 years old,Prefer not to say,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,N/A,25-34 years old,mixed,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,Gluten Free (allergic to gluten),25-34 years old,Mexican and Persian,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a plant-based meal,Vegetarian,45-54 years old,White,Non-Hispanic/Non-Latinx,Faculty,NA,NA,NA,NA
+Stay with the plant-based meal,NA,45-54 years old,White,Non-Hispanic/Non-Latinx,Faculty,NA,NA,NA,NA
+Stay with the plant-based meal,NA,25-34 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,18-24 years old,White,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,Pescatarian,18-24 years old,Multiracial,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,Pescatarian,45-54 years old,White,Non-Hispanic/Non-Latinx,Staff,NA,NA,NA,NA
+Switch to a meal with meat,NA,18-24 years old,Prefer not to say,Prefer not to say,Prefer not to say,NA,NA,NA,NA
+Stay with the plant-based meal,Pescatarian,35-44 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a meal with meat,NA,25-34 years old,Black or African American,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a plant-based meal,Vegetarian,25-34 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,45-54 years old,White,Non-Hispanic/Non-Latinx,Faculty,NA,NA,NA,NA
+Stay with the meal with meat,"Only eat chicken and fish, not red meat.",25-34 years old,Black or African American,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a meal with meat,NA,18-24 years old,Black or African American,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a meal with meat,none,25-34 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,25-34 years old,NA,NA,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Switch to a plant-based meal,Vegetarian,25-34 years old,NA,NA,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Stay with the meal with meat,NA,55-64 years old,Black or African American,NA,Staff,NA,NA,NA,NA
+Stay with the meal with meat,NA,25-34 years old,White,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,NA,18-24 years old,White,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,Pescatarian,18-24 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a plant-based meal,Ovo-lacto vegetarian and pescatarian,65-74 years old,White,Non-Hispanic/Non-Latinx,Faculty,NA,NA,NA,NA
+Stay with the meal with meat,Pescatarian,NA,Black or African American,Non-Hispanic/Non-Latinx,Staff,NA,NA,NA,NA
+Stay with the meal with meat,NA,25-34 years old,NA,NA,Graduate Student,NA,NA,NA,NA
+Switch to a plant-based meal,Vegetarian,25-34 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,Vegetarian,18-24 years old,Latina ,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a meal with meat,NA,25-34 years old,White,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a plant-based meal,Vegan,25-34 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a plant-based meal,Pescatarian,25-34 years old,White,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a plant-based meal,Pescatarian,18-24 years old,Asian,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,N/-,18-24 years old,White,Non-Hispanic/Non-Latinx,Staff,NA,NA,NA,NA
+Stay with the meal with meat,NA,18-24 years old,White,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the plant-based meal,NA,25-34 years old,Half Mexican Half Asian,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Switch to a plant-based meal,Pescatarian,25-34 years old,Prefer not to say,Prefer not to say,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,25-34 years old,Prefer not to say,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,18-24 years old,White,Non-Hispanic/Non-Latinx,Graduate Student,NA,NA,NA,NA
+Stay with the meal with meat,NA,25-34 years old,NA,Hispanic/Latinx,Graduate Student,NA,NA,NA,NA
