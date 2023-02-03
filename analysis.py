@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict, fields
 import csv
 from uuid import uuid4
 from enum import Enum, auto
@@ -96,3 +96,30 @@ class SurveyResponse:
     veg_is_important: Likert
     importance_reason: str
     other_fields: dict
+
+    CSV_EXCLUDED_FIELDS = ("other_fields",)
+    VARIABLE_FIELDS = (
+        "diet_other_text",
+        "race_text",
+        "importance_reason",
+        "other_fields",
+    )
+
+    def dict(self):
+        return asdict(self)
+
+    def csv_tuple(self):
+        obj_dict = self.dict()
+        return tuple(
+            (obj_dict[field] for field in SurveyResponse.ordered_field_names())
+        )
+
+    @staticmethod
+    def ordered_field_names():
+        return tuple(
+            (
+                field.name
+                for field in fields(SurveyResponse)
+                if field.name not in SurveyResponse.CSV_EXCLUDED_FIELDS
+            )
+        )
