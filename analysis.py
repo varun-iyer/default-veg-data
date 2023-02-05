@@ -1,4 +1,5 @@
 from dataclasses import dataclass, asdict, fields
+import peewee as pw
 from typing import Union
 import csv
 from uuid import uuid4
@@ -13,6 +14,7 @@ UTA_PATH = f"{DATA_ROOT}/uta/Pre v Post Responses.csv"
 UCSB_UG_EVENT_PATH = f"{DATA_ROOT}/ucsb/undergraduate.csv"
 UCSB_GRAD_EVENT_PATH = f"{DATA_ROOT}/ucsb/graduate.csv"
 COMBINED_DATA_PATH = f"{DATA_ROOT}/combined_data.csv"
+SQLITE_PATH = f"{DATA_ROOT}/combined_data.db"
 
 
 class ResponseSource(str, Enum):
@@ -215,8 +217,16 @@ class Likert(int, Enum):
             return None
 
 
+db = pw.SqliteDatabase(SQLITE_PATH)
+
+
+class BaseModel(pw.Model):
+    class Meta:
+        database = db
+
+
 @dataclass
-class SurveyResponse:
+class SurveyResponse(BaseModel):
     uuid: str
     source_id: int | str | None
     source: ResponseSource
@@ -235,6 +245,25 @@ class SurveyResponse:
     veg_is_important: Likert | None
     importance_reason: str
     other_fields: dict
+
+    class Model(BaseModel):
+        uuid: str = pw.CharField(unique=True)
+        source_id: int | str | None = pw.CharField(null=True)
+        source: ResponseSource = pw.CharField()
+        default_meal: Meal = pw.CharField(null=True)
+        selected_meal: Meal = pw.CharField(null=True)
+        eaten_meal: Meal | None = pw.CharField(null=True)
+        diet: Diet | None = pw.CharField(null=True)
+        diet_text: str = pw.TextField(null=True)
+        race: Race | None = pw.CharField(null=True)
+        race_text: str = pw.TextField(null=True)
+        ethnicity: Ethnicity | None = pw.CharField(null=True)
+        gender: Gender | None = pw.CharField(null=True)
+        age: AgeRange | None = pw.CharField(null=True)
+        role: Role | None = pw.CharField(null=True)
+        is_satisfied: Likert | None = pw.CharField(null=True)
+        veg_is_important: Likert | None = pw.CharField(null=True)
+        importance_reason: str = pw.TextField(null=True)
 
     CSV_EXCLUDED_FIELDS = ("other_fields",)
     VARIABLE_FIELDS = (
@@ -409,7 +438,13 @@ class SurveyResponse:
         function = SurveyResponse.init_method(source)
         path_to_csv = ResponseSource.path(source)
         reader = csv.DictReader(open(path_to_csv))
-        return [function(row, source) for row in reader]
+        responses = [function(row, source) for row in reader]
+        SurveyResponse.Model.create_table()
+        response_dicts = [response.dict() for response in responses]
+        for response_dict in response_dicts:
+            del response_dict["other_fields"]
+        SurveyResponse.Model.insert(response_dicts).execute()
+        return responses
 
     @staticmethod
     def load_all() -> list["SurveyResponse"]:

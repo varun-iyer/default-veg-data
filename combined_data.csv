@@ -1,366 +1,366 @@
 uuid,source_id,source,default_meal,selected_meal,eaten_meal,diet,diet_text,race,race_text,ethnicity,gender,age,role,is_satisfied,veg_is_important,importance_reason
-2beb9352-7c08-4b62-9c07-9e905403194c,1,asu_convocation,meat,veg,,written,,white,,not hispanic or latinx,female,25-34,staff,,,
-37466428-20e0-480f-9c01-4819748b6f36,2,asu_convocation,meat,meat,,omnivore,,white,,not hispanic or latinx,female,25-34,staff,,,
-4c2a1c2a-3684-4575-be09-3456b79fb8bc,3,asu_convocation,meat,veg,veg,pescatarian,,white,,not hispanic or latinx,female,35-44,staff,,strongly_agree,
-5b7a5e2e-0637-4ef9-b54b-ff15992434ae,4,asu_convocation,meat,meat,,omnivore,,white,,not hispanic or latinx,male,45-54,staff,,,
-f6ec0584-a7a7-4f20-90c9-d2d37a75109d,5,asu_convocation,meat,meat,,omnivore,,asian,,not hispanic or latinx,female,45-54,staff,,,
-d4418055-deeb-4501-aa78-41e12f82412e,6,asu_convocation,meat,meat,,omnivore,,white,,not hispanic or latinx,female,35-44,staff,,,
-2a587463-c10f-4fba-8702-40db202fa7ec,7,asu_convocation,meat,meat,meat,omnivore,,white,,not hispanic or latinx,female,25-34,staff,,disagree,
-9abaca3f-ea2b-4aa7-ab5e-7df19d8a7385,8,asu_convocation,meat,meat,meat,written,Gluten free,white,,not hispanic or latinx,female,25-34,staff,,strongly_disagree,
-42886896-8ad6-4cd8-b3f6-14041fc59596,9,asu_convocation,meat,meat,,written,Carnivore,white,,not hispanic or latinx,male,45-54,staff,,,
-fea8a403-566f-42cd-906b-16fbb2369154,10,asu_convocation,meat,meat,,omnivore,,white,,not hispanic or latinx,male,25-34,staff,,,
-6308a42a-2504-4539-b680-5b84c3b6b97e,11,asu_convocation,meat,veg,veg,pescatarian,,white,,not hispanic or latinx,female,45-54,staff,,agree,
-20b81ead-a5dc-4249-8676-142c7b768af5,12,asu_convocation,meat,meat,,omnivore,,white,,hispanic or latinx,female,35-44,staff,,,
-03e5bea5-578f-4cef-a544-03f50b33a167,13,asu_convocation,meat,meat,meat,omnivore,,white,,not hispanic or latinx,male,45-54,staff,,disagree,
-b739ddb0-8d5d-4aae-b1c9-47d7f6d489ac,14,asu_convocation,meat,meat,,omnivore,,white,,not hispanic or latinx,female,25-34,staff,,,
-8aca000a-e7b3-442d-a990-7e2d27afb9ce,15,asu_convocation,meat,meat,meat,omnivore,,,,not hispanic or latinx,,55-64,staff,,strongly_disagree,
-73315c7d-1912-4f9b-b857-e424134f7afd,16,asu_convocation,meat,veg,veg,pescatarian,,white,,,female,35-44,staff,,strongly_agree,
-e4fe5beb-0db2-4d8e-828b-92949458f61d,17,asu_convocation,meat,meat,meat,omnivore,,,,hispanic or latinx,female,25-34,staff,,agree,
-6eb23442-6a35-482e-a052-0d524f4a0f08,18,asu_convocation,meat,veg,,omnivore,,white,,hispanic or latinx,female,25-34,staff,,,
-1886dfe0-61c7-4e4f-a230-f0dffbcb5610,19,asu_convocation,meat,veg,,pescatarian,,,,not hispanic or latinx,male,35-44,staff,,,
-b4eac994-f0ad-4068-ab8c-d605ca98abb7,20,asu_convocation,meat,meat,meat,omnivore,,white,,hispanic or latinx,female,35-44,staff,,agree,
-70de9deb-32d9-4efe-8ea7-f028829bce62,21,asu_convocation,meat,meat,,omnivore,,,,hispanic or latinx,male,25-34,staff,,,
-47241014-ff80-4570-9e7e-aad8e5eda52f,22,asu_convocation,veg,meat,,omnivore,,white,,not hispanic or latinx,female,25-34,staff,,,
-adb42150-f14a-4a79-9bd4-b02b5662b4d9,23,asu_convocation,veg,veg,veg,omnivore,,white,,not hispanic or latinx,female,35-44,staff,,disagree,
-937441b9-c7fc-4157-8581-af28c323b534,24,asu_convocation,veg,meat,meat,omnivore,,written,Multi,hispanic or latinx,female,25-34,staff,,strongly_disagree,
-f645cce2-f5de-4495-8fcc-4eeb7ff704e8,25,asu_convocation,veg,veg,,omnivore,,white,,not hispanic or latinx,female,18-24,staff,,,
-8b4bf6b4-0347-4ea1-bd33-dad33afcd5af,26,asu_convocation,veg,veg,,written,I have gluten and dairy allergies,white,,,female,45-54,staff,,,
-66ec429a-07d5-40ed-95d5-d267fbb8ffa3,27,asu_convocation,veg,meat,meat,omnivore,,white,,not hispanic or latinx,male,25-34,staff,,strongly_disagree,
-c0f1bcd5-f7f3-48ec-879e-5c41c0c4d896,28,asu_convocation,veg,veg,,omnivore,,white,,not hispanic or latinx,female,25-34,staff,,,
-f16ac310-0508-4506-a2bd-8803def5730d,29,asu_convocation,veg,meat,,written,Carnivore all the way!,white,,not hispanic or latinx,female,65-74,staff,,,
-fbac1ae0-ac4b-4a67-a6da-3c18e05a82b9,30,asu_convocation,veg,meat,meat,omnivore,,white,,hispanic or latinx,male,25-34,staff,,disagree,
-c7f6a8e1-2996-4b57-9a39-5f914c8594d2,31,asu_convocation,veg,meat,,omnivore,,white,,hispanic or latinx,female,55-64,staff,,,
-cc97d1fd-182f-4595-9edc-a5247eb582a4,32,asu_convocation,veg,veg,veg,vegetarian,,white,,not hispanic or latinx,female,45-54,staff,,strongly_agree,
-da13043d-df7d-4857-9ebe-68c7cd3f9d7b,33,asu_convocation,veg,veg,veg,omnivore,,white,,not hispanic or latinx,female,55-64,staff,,disagree,
-a93316ce-58e6-4616-a5d2-6f680ca0daec,34,asu_convocation,veg,veg,veg,omnivore,,written,,not hispanic or latinx,female,25-34,staff,,disagree,
-798ffa43-b8f6-4fb0-9d04-a11626905fd5,35,asu_convocation,veg,veg,,pescatarian,,white,,not hispanic or latinx,female,35-44,staff,,,
-2aec536e-a354-40af-9f8f-94612656b9da,36,asu_convocation,veg,meat,meat,omnivore,,white,,not hispanic or latinx,female,18-24,staff,,strongly_disagree,
-cfd20c05-d9d0-4580-a523-069c7dd0b35e,37,asu_convocation,veg,meat,,omnivore,,white,,not hispanic or latinx,male,35-44,staff,,,
-a6c48862-e9c2-4539-9ef3-38b328933d75,38,asu_convocation,veg,meat,,omnivore,,white,,not hispanic or latinx,female,45-54,staff,,,
-e7f7f0c2-fe4a-415e-afe7-367560ca2564,39,asu_convocation,veg,meat,meat,omnivore,,white,,not hispanic or latinx,male,35-44,staff,,strongly_disagree,
-0170e76f-cefc-4bb8-aff4-c60c672610b2,40,asu_convocation,veg,veg,veg,omnivore,,,,,female,55-64,,,strongly_disagree,
-e0c207e0-b318-468e-8e11-8d5f03394a4d,41,asu_convocation,veg,meat,,,,,,,,,,,,
-5f8dc734-7fa1-4b6a-b0af-2a130f7922a8,42,asu_convocation,veg,meat,,,,,,,,,,,,
-bd626451-f9e9-46cf-a654-c59e0f4cbe45,43,asu_convocation,veg,veg,,,,,,,,,,,,
-42cb2f23-7f08-4886-9cd8-e172e3446b1a,44,asu_convocation,veg,meat,meat,,,,,,,,,,strongly_agree,
-a173b548-cb9b-4438-b559-9c5444286e2f,45,asu_convocation,meat,meat,meat,,,,,,,,,,strongly_disagree,
-ab30da40-b80a-4818-9c7e-9ff35efb21b5,46,asu_convocation,meat,meat,meat,,,,,,,,,,disagree,
-ee0360a1-7664-4e1b-8a04-5efc79a96d8a,1,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,35-44,,,disagree,
-a41e4dec-1b02-4fc2-9385-bff575694121,2,asu_research_day,meat,veg,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,,
-8828e758-ea1b-472b-a57a-3e13b83e8ddf,3,asu_research_day,veg,veg,veg,omnivore,None of the above,asian,,not hispanic or latinx,,35-44,,,disagree,
-3d0d7ebf-3a8d-47a2-a573-4915cf173b3b,4,asu_research_day,veg,meat,,omnivore,None of the above,,,not hispanic or latinx,,25-34,staff,,,
-682aef06-53fc-48c4-9dcd-d07d50bc73a2,5,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,,
-9293b00d-6385-47c2-810d-531b19733ca0,6,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,not hispanic or latinx,,45-54,,,strongly_disagree,
-87546f89-8f38-42e8-9450-e83b159fe7d0,7,asu_research_day,veg,veg,veg,vegan,Vegan,white,,not hispanic or latinx,,35-44,graduate_student,,strongly_agree,
-b9ed64c0-f4d3-472a-a2dc-3a545cd576ca,8,asu_research_day,veg,veg,veg,,,,,,,,,,disagree,
-b1e4b014-a120-4aed-b5dc-2bc28176e698,9,asu_research_day,veg,veg,,,,,,,,,,,,
-27db2f3f-2121-47da-b79f-cb4bdcf959b5,10,asu_research_day,meat,veg,veg,vegetarian,Vegetarian,white,,not hispanic or latinx,,35-44,,,strongly_agree,
-c9376fea-e75c-45ed-a181-0a285886fe39,11,asu_research_day,veg,veg,meat,written,Other,asian,,not hispanic or latinx,,25-34,graduate_student,,disagree,
-8353fdca-d7e1-4c7f-92b5-46dc91907afb,12,asu_research_day,veg,veg,veg,,,,,,,,,,strongly_agree,
-d150cc80-3388-4d2f-a16a-90956c696d05,13,asu_research_day,veg,meat,,omnivore,None of the above,white,,hispanic or latinx,,45-54,staff,,,
-7868cdf4-5c3d-48c8-a6f7-f4c3d90a6323,14,asu_research_day,veg,veg,,omnivore,None of the above,,,not hispanic or latinx,,45-54,,,,
-f3b94651-a6fb-4dbf-b5bf-604d055bed4f,15,asu_research_day,veg,meat,,omnivore,None of the above,asian,,hispanic or latinx,,18-24,undergraduate_student,,,
-722c6a14-8f30-475c-a821-d8fa679c6c30,16,asu_research_day,veg,veg,,omnivore,None of the above,,,not hispanic or latinx,,45-54,staff,,,
-325a8d5b-13a0-4915-850d-7565a3041955,17,asu_research_day,meat,veg,,pescatarian,Pescatarian,white,,not hispanic or latinx,,35-44,,,,
-a4818ed4-0810-464b-9491-aa79434c23b8,18,asu_research_day,meat,meat,meat,omnivore,None of the above,,,,,,staff,,disagree,
-a905d3e8-93e5-40cf-abd7-c1cf731e8ada,19,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,35-44,,,,
-6fe885d1-00f9-4ca2-aa9a-288c68b2abb3,20,asu_research_day,meat,meat,veg,omnivore,None of the above,white,,hispanic or latinx,,45-54,,,agree,
-1ec13450-645c-45c8-845e-2b54656472e1,21,asu_research_day,meat,veg,veg,pescatarian,Pescatarian,white,,not hispanic or latinx,,35-44,,,agree,
-fc6b664a-40f1-4d2a-9865-899672eba3e0,22,asu_research_day,meat,veg,veg,vegetarian,Vegetarian,white,,not hispanic or latinx,,25-34,staff,,agree,
-5c9e64cb-d9a0-4640-bbc2-e38a64eae8b4,23,asu_research_day,veg,meat,meat,,,asian,,not hispanic or latinx,,55-64,staff,,strongly_agree,
-fa5e18b9-e10a-4215-b0e3-b9ee1b57b5c8,24,asu_research_day,meat,meat,,omnivore,None of the above,white,,,,25-34,,,,
-a396f9ce-baa0-4af7-96aa-f376b8ceb1fe,25,asu_research_day,meat,meat,meat,written,Other,white,,not hispanic or latinx,,45-54,,,strongly_disagree,
-fc4af7b9-76c3-49b0-a1f7-791c71017b15,26,asu_research_day,veg,meat,,omnivore,None of the above,,,,,,,,,
-cd7d8c31-10e5-4844-964d-64bed4c1a7bf,27,asu_research_day,veg,veg,veg,written,Other,white,,hispanic or latinx,,35-44,,,strongly_agree,
-202ca399-bf1f-4064-90c3-a68be7b7994e,28,asu_research_day,meat,veg,,vegetarian,Vegetarian,white,,hispanic or latinx,,18-24,,,,
-31088be8-b213-44ca-a943-00843290bfa1,29,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,35-44,,,strongly_disagree,
-ef006e80-ec69-40b9-b76f-cc7a162200b9,30,asu_research_day,meat,veg,veg,vegan,Vegan,white,,not hispanic or latinx,,18-24,graduate_student,,agree,
-73a8b62e-149b-40ce-82c9-10783349dc1e,31,asu_research_day,meat,veg,veg,vegetarian,Vegetarian,asian,,not hispanic or latinx,,25-34,graduate_student,,strongly_agree,
-991a9972-31ee-441c-bd92-8b21579eb072,32,asu_research_day,meat,meat,,omnivore,None of the above,white,,hispanic or latinx,,25-34,staff,,,
-411b87ba-d87b-4bb5-830c-31d899cb2351,33,asu_research_day,meat,veg,,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,graduate_student,,,
-b7e8cee3-c2a4-47c3-8fde-964e76710ad1,34,asu_research_day,veg,veg,,omnivore,None of the above,asian,,not hispanic or latinx,,18-24,graduate_student,,,
-de6c8bce-7063-4403-9e05-f74f93c8aba5,35,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,25-34,staff,,agree,
-3ef2a3d9-f6ab-4357-9ea6-c3fe90d32ce4,36,asu_research_day,veg,meat,meat,omnivore,None of the above,white,,,,25-34,graduate_student,,strongly_agree,
-6678aee5-ed05-4a85-8653-fd6eed032a30,37,asu_research_day,meat,meat,meat,written,Other,white,,not hispanic or latinx,,45-54,,,strongly_disagree,
-7a0e45c8-46eb-4a25-a874-d00088c1d1c5,38,asu_research_day,veg,veg,,omnivore,None of the above,white,,not hispanic or latinx,,35-44,staff,,,
-ee85f01c-214e-4a34-9114-f3c01722b77d,39,asu_research_day,veg,meat,meat,omnivore,None of the above,white,,hispanic or latinx,,25-34,graduate_student,,disagree,
-80718181-f385-4b63-b95b-30174c659f56,40,asu_research_day,veg,veg,veg,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,graduate_student,,strongly_disagree,
-f8a34151-7a53-4736-b776-16e04035ef98,41,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,not hispanic or latinx,,35-44,graduate_student,,agree,
-1dd336b5-0101-4088-974e-18ab5074ded4,42,asu_research_day,veg,meat,meat,omnivore,None of the above,white,,hispanic or latinx,,Under 18,,,disagree,
-eaf9ee76-dead-461f-9c7d-da5fce72bafc,43,asu_research_day,meat,meat,meat,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,graduate_student,,disagree,
-5f223c70-4844-49e8-aecf-7d7427824353,44,asu_research_day,veg,meat,veg,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,staff,,disagree,
-537c9762-b7c3-473c-b413-512db112f9c0,45,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,45-54,,,disagree,
-31f98493-2fff-45ee-9b21-2a36460f372d,46,asu_research_day,veg,meat,,omnivore,None of the above,,,hispanic or latinx,,35-44,graduate_student,,,
-5a5253af-dc13-403c-bbe5-f51a8d10477f,47,asu_research_day,veg,veg,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,,,,
-ce43e431-cebb-450f-98f7-ba31b593d871,48,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,18-24,undergraduate_student,,,
-93471fbd-4c9b-42b8-9899-ffd1cf7290c9,49,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,18-24,undergraduate_student,,,
-acf5a418-f0fe-45b1-bd81-d79fb000d6fb,50,asu_research_day,veg,veg,,omnivore,None of the above,white,,hispanic or latinx,,Under 18,,,,
-dced9ee2-1305-45a4-8fca-1e5e2dde956f,51,asu_research_day,meat,meat,meat,omnivore,None of the above,,,not hispanic or latinx,,25-34,staff,,agree,
-1d881dbc-61bb-4ebe-8e2c-0a5ec4488540,52,asu_research_day,veg,veg,veg,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,,,strongly_disagree,
-aef270a3-1855-4873-80ee-9a8acf6b5301,53,asu_research_day,meat,meat,veg,omnivore,None of the above,,,not hispanic or latinx,,45-54,,,disagree,
-d3062412-9153-4008-af45-5e4cc067ba3f,54,asu_research_day,veg,veg,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,,
-31024cae-4074-45a8-a581-f656f6582a38,55,asu_research_day,veg,,meat,,,,,,,,,,disagree,
-9d2163bf-308e-44a4-bc08-1eca9fe316be,56,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,,
-421d9552-1247-4f9e-9131-def08fd4dddb,57,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,hispanic or latinx,,18-24,staff,,disagree,
-dc42030e-f4ec-4cac-b016-be00849bc9c6,58,asu_research_day,veg,meat,,omnivore,None of the above,white,,not hispanic or latinx,,55-64,,,,
-3e421389-74ea-4964-973d-47682ca07a8c,59,asu_research_day,veg,meat,meat,omnivore,None of the above,written,,,,25-34,graduate_student,,disagree,
-b2e10458-bb32-4dbd-a961-8548effeb19f,60,asu_research_day,veg,meat,,omnivore,None of the above,white,,hispanic or latinx,,25-34,staff,,,
-562dd366-8368-4404-a50c-49202f9990b2,61,asu_research_day,veg,meat,,omnivore,None of the above,,,not hispanic or latinx,,35-44,staff,,,
-c8bc86ce-4d01-4b48-904e-7677c75f4dfa,62,asu_research_day,veg,veg,veg,omnivore,None of the above,,,not hispanic or latinx,,45-54,,,agree,
-d4893e93-bd03-46ba-b7bb-9c8de07ee924,63,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,disagree,
-52c6f90d-0687-44f2-b537-c9b4ce10cb93,64,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,55-64,staff,,disagree,
-e048e6f6-c9d9-49e3-9194-d22a0b66ad3b,65,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,disagree,
-69b15d9c-0cbc-436d-a635-340c68828386,66,asu_research_day,meat,veg,,omnivore,None of the above,asian,,not hispanic or latinx,,45-54,staff,,,
-6062365b-6238-4af7-8c34-0f9bf9d058fc,67,asu_research_day,meat,meat,meat,omnivore,None of the above,asian,,not hispanic or latinx,,55-64,,,disagree,
-3194d4ef-8e36-48dc-83c2-7a22062128ad,68,asu_research_day,veg,veg,,vegetarian,Vegetarian,asian,,hispanic or latinx,,Under 18,undergraduate_student,,,
-a7b10335-6a08-440f-9e3c-c18d98773e2f,69,asu_research_day,meat,veg,veg,vegan,Vegan,white,,not hispanic or latinx,,25-34,,,strongly_agree,
-a86287aa-3ff1-4bf3-8e5a-497d26efd820,70,asu_research_day,veg,veg,,omnivore,None of the above,,,hispanic or latinx,,35-44,staff,,,
-79f7729c-badf-4a70-b964-ab72f5f236c7,71,asu_research_day,veg,veg,veg,vegetarian,Vegetarian,white,,not hispanic or latinx,,25-34,graduate_student,,strongly_disagree,
-85ac0a5f-29ef-4271-b549-c22705656a23,72,asu_research_day,veg,meat,,omnivore,None of the above,white,,hispanic or latinx,,Under 18,,,,
-5242e631-da17-43b4-9eea-238d9706fc93,73,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,35-44,,,disagree,
-325a1918-8ed3-4792-8311-744195f513ae,74,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,staff,,,
-494909c8-c55f-485e-90e3-bb07c43fde8e,75,asu_research_day,meat,,meat,,,,,,,,,,strongly_disagree,
-26c6a17d-5c18-444c-a506-6680ced84802,76,asu_research_day,veg,meat,meat,,,,,,,,graduate_student,,disagree,
-4ccdd744-3b0e-4d8e-980b-e8b6bb7a3463,77,asu_research_day,meat,veg,veg,vegetarian,Vegetarian,,,,,35-44,staff,,strongly_agree,
-64b3211b-1863-4ee6-bbc3-0b2892fd2914,78,asu_research_day,meat,meat,veg,omnivore,None of the above,white,,hispanic or latinx,,35-44,staff,,disagree,
-295e0a06-5599-4dfe-9007-64f796a8adb2,79,asu_research_day,veg,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,55-64,,,strongly_disagree,
-4718c773-d090-40ed-a632-287a76a0b21c,80,asu_research_day,meat,meat,meat,omnivore,None of the above,,,not hispanic or latinx,,45-54,staff,,strongly_disagree,
-589a24ea-c74f-4072-ba30-1cb2302e5f03,81,asu_research_day,veg,veg,veg,pescatarian,Pescatarian,asian,,not hispanic or latinx,,45-54,,,agree,
-4fda9823-c81d-40d8-b41d-b42fd36d9310,82,asu_research_day,meat,meat,meat,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,staff,,strongly_disagree,
-0a28c399-2398-4ec2-a565-02e2313b5774,83,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,not hispanic or latinx,,25-34,staff,,disagree,
-3e1ca6c9-2634-4f57-ae49-f5c2c32372ca,84,asu_research_day,veg,veg,,written,Other,white,,not hispanic or latinx,,45-54,,,,
-c686a76b-4189-468c-b241-6def227aa475,85,asu_research_day,veg,veg,veg,vegan,Vegan,white,,not hispanic or latinx,,55-64,staff,,strongly_agree,
-eba66e79-d2ea-4243-bd55-2cc7f321fda3,86,asu_research_day,veg,meat,,,,,,,,,,,,
-24f8f32b-d658-4c07-ad73-ceaf1e89561f,87,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,not hispanic or latinx,,55-64,staff,,agree,
-b2976422-b6ec-42ae-b288-1e714dea322c,88,asu_research_day,meat,,veg,,,,,,,,,,strongly_agree,
-6d04dfb5-e2d7-4d03-b728-74340c7bdecd,89,asu_research_day,meat,veg,,pescatarian,Pescatarian,,,,,,,,,
-c33ccb29-04ca-4eae-8e70-5cfb8742e092,90,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,45-54,staff,,strongly_disagree,
-00c84f6b-3fcf-4652-b55b-5db34e000cf9,91,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,staff,,,
-a9c2641c-d3f5-48a3-bd5d-382174a27a43,92,asu_research_day,meat,,meat,,,,,,,,,,strongly_disagree,
-64e902cf-0472-407c-abbd-c7c0e72146ac,93,asu_research_day,veg,veg,,vegetarian,Vegetarian,,,,,,,,,
-58269a18-3d42-4266-944e-d2ce55b48e42,94,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,hispanic or latinx,,35-44,staff,,disagree,
-0c852390-a349-476a-b9d0-03bf913d4f4e,,ucla,veg,veg,veg,pescatarian,Pescatarian,,Mexican American,hispanic or latinx,,25-34,graduate_student,strongly_agree,,NA
-ff713d6a-f1c7-407f-b585-152bf6b01ce9,,ucla,meat,meat,veg,pescatarian,Pescatarian,black or african american,Black or African American,not hispanic or latinx,,35-44,graduate_student,agree,,NA
-10f41904-857f-405e-bc71-53de00cf8095,,ucla,meat,meat,meat,omnivore,NA,asian,Asian,not hispanic or latinx,,25-34,graduate_student,strongly_agree,,NA
-a3c406ea-1cb6-4056-ae06-09022cf07425,,ucla,veg,veg,veg,pescatarian,Pescatarian,,NA,,,,graduate_student,agree,,NA
-7e5b0a62-5d2a-4a55-aea4-4590e16f7867,,ucla,veg,veg,meat,,N/A,,Latino,hispanic or latinx,,18-24,graduate_student,agree,,I don’t always eat plant bases but I try to now and then due to the lower carbon footprint and all the other reasons listed above
-efb2018c-ed9e-4563-9ba3-92ff00fc2c78,,ucla,meat,veg,veg,vegetarian,Vegetarian,black or african american,Black or African American,hispanic or latinx,,25-34,staff,strongly_agree,,NA
-76a6935f-9abd-4255-b257-f2f83d386574,,ucla,veg,veg,veg,omnivore,NA,multiracial,Mixed (Mestiza),hispanic or latinx,,18-24,graduate_student,agree,,NA
-dfe354b7-de77-4fd8-99c9-41084b032e90,,ucla,veg,veg,veg,pescatarian,Pescatarian,white,White,not hispanic or latinx,,25-34,graduate_student,strongly_agree,,NA
-e325eb43-3368-4495-99f5-190c8871d233,,ucla,meat,meat,meat,omnivore,NA,white,White,not hispanic or latinx,,65-74,,strongly_agree,,NA
-0ac934f2-b417-47e4-b643-c3d8f758c1a9,,ucla,veg,veg,veg,omnivore,NA,white,White,not hispanic or latinx,,25-34,graduate_student,strongly_agree,,I don't often crave meat and usually prefer plant based options
-8dc7310b-f14d-4278-a40f-df1766645be0,,ucla,meat,meat,meat,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,agree,,It is important to take care of the planet 
-37f704f5-c015-40cf-91c5-56aba204f942,,ucla,meat,meat,meat,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,disagree,,"Some people have food restrictions or preferences for the foods that can be eaten. Although a plant based option was available, it was not vegan so some individuals could not eat. The broccoli had meat bits, the pesto pasta was made with cheese. I eat plant based to others have options."
-65bfe258-e36b-4a04-bc1c-0aee06eff1a7,,ucla,meat,meat,meat,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,agree,,NA
-34020335-ff01-4a22-b97b-94900d08e8b9,,ucla,veg,meat,meat,omnivore,NA,,NA,hispanic or latinx,,25-34,graduate_student,agree,,NA
-f000ab22-f163-46f1-a3c9-4ac385e4ac55,,ucla,veg,veg,veg,,Halal,arab,Arab,not hispanic or latinx,,18-24,graduate_student,,,"I eat meat, however it has to be Halal so for that reason I oftentimes opt for vegetarian options :)"
-27336835-be11-408f-ab8f-2d01af197528,,ucla,veg,veg,veg,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,strongly_agree,,NA
-d873bda0-cb5f-4be6-8691-1defaeda74c1,,ucla,meat,veg,veg,vegetarian,Vegetarian,asian,Asian,not hispanic or latinx,,25-34,graduate_student,strongly_agree,,I follow and practice an Indian religion called Hinduism and because of that I have been a vegetarian since my birth.
-982fadf6-d01a-46fd-a09f-332b1339a3b2,,ucla,meat,meat,meat,,No pork,white,White,not hispanic or latinx,,55-64,,agree,,NA
-11cf3317-fb6b-40f1-8b1d-ee3647c62437,,ucla,veg,veg,veg,vegan,Vegan,white,White,not hispanic or latinx,,18-24,graduate_student,strongly_agree,,NA
-4dac7895-40f1-4747-8f8c-6115e604776c,,ucla,veg,veg,veg,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,strongly_agree,,If I can’t confirm the quality of the meat I would rather go plant based. 
-260cf058-457d-48a7-9093-77059a299467,,ucla,meat,meat,meat,,no pork,white,White,not hispanic or latinx,,18-24,graduate_student,disagree,,NA
-159373b1-d5a0-4e3b-8cd8-8e22c03ad739,,ucla,meat,meat,meat,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,agree,,NA
-e0cbed1f-106f-4463-b9f5-f214a06e3d6c,,ucla,meat,meat,meat,omnivore,NA,asian,Asian,not hispanic or latinx,,25-34,graduate_student,agree,,NA
-536cbaf6-4a7c-4497-a6ff-5ce33bf29d84,,ucla,meat,veg,,omnivore,NA,,NA,hispanic or latinx,,25-34,graduate_student,,,NA
-1c9a4188-1c74-4a16-a88a-bffb7587269d,,ucla,veg,veg,,,Meat,asian,Asian,not hispanic or latinx,,18-24,graduate_student,,,NA
-8fada20c-c4fc-4462-be13-072406803ab9,,ucla,meat,meat,,omnivore,NA,white,White,not hispanic or latinx,,25-34,graduate_student,,,NA
-a6e4b42c-b733-4150-a98b-1c455af707eb,,ucla,veg,veg,,pescatarian,Pescatarian,black or african american,Black or African American,not hispanic or latinx,,25-34,graduate_student,,,NA
-b751fe7f-4950-4084-88b7-72cf93ddac24,,ucla,veg,veg,,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,,,NA
-2c842b62-9190-4790-b591-088e9bf493a7,,ucla,veg,veg,,omnivore,NA,asian,Asian,not hispanic or latinx,,18-24,graduate_student,,,NA
-782048e3-9806-4b19-81fb-0a3201ca23d7,,ucla,meat,meat,,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,,,NA
-c21f5c26-c577-425b-b6d7-a7c7dae8f87b,,ucla,meat,veg,,vegetarian,Vegetarian,white,White,not hispanic or latinx,,45-54,,,,NA
-0f6ce62a-d61b-4837-b079-c86e53f63838,,ucla,meat,meat,,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,,,NA
-263bffd0-fb57-4348-a8dd-05aa3bbc46ca,,ucla,veg,veg,,,I do not eat red meat (chicken and fish okay),asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
-3d6263b9-e15a-47db-be3f-74d958f5bc1a,,ucla,veg,veg,,omnivore,NA,asian,Asian,not hispanic or latinx,,18-24,graduate_student,,,NA
-9455ef56-2e7d-4b49-afe2-fe1b8350220f,,ucla,meat,meat,,omnivore,NA,,NA,not hispanic or latinx,,45-54,,,,NA
-edeec2d6-f31a-4f8c-8aea-097ed8b9f069,,ucla,meat,meat,,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,,,NA
-c8935b87-5bff-4f98-ba2f-de5c7af4ad5f,,ucla,veg,veg,,pescatarian,Pescatarian,white,White,not hispanic or latinx,,25-34,graduate_student,,,NA
-14aad9bd-332d-4aa1-97b7-3c47eeb7541f,,ucla,meat,meat,,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,,,NA
-dd43aaed-6b73-4e57-8f20-c653af163d73,,ucla,meat,meat,,,N/A,,mixed,hispanic or latinx,,25-34,graduate_student,,,NA
-bfa167df-ced8-43aa-87c4-8909fae3798f,,ucla,veg,veg,,,Gluten Free (allergic to gluten),,Mexican and Persian,hispanic or latinx,,25-34,graduate_student,,,NA
-0191c81d-3099-4a89-b308-d87bb0d56fd1,,ucla,meat,veg,,vegetarian,Vegetarian,white,White,not hispanic or latinx,,45-54,,,,NA
-786bccae-374f-4a05-8952-cb8921e16e00,,ucla,veg,veg,,omnivore,NA,white,White,not hispanic or latinx,,45-54,,,,NA
-205c7286-f130-4960-b4ed-9d6a0183c69e,,ucla,veg,veg,,omnivore,NA,asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
-59a93f9f-a17f-4f8e-9333-92530cfe4ad6,,ucla,meat,meat,,omnivore,NA,white,White,hispanic or latinx,,18-24,graduate_student,,,NA
-5ec164d9-284f-4b29-ab0b-0f06f56235bf,,ucla,veg,veg,,pescatarian,Pescatarian,multiracial,Multiracial,hispanic or latinx,,18-24,graduate_student,,,NA
-d6d51aa2-cdca-4e2c-bf5b-94cf4e525616,,ucla,veg,veg,,pescatarian,Pescatarian,white,White,not hispanic or latinx,,45-54,staff,,,NA
-de266a06-79e7-458a-bafa-c2fc7a32172e,,ucla,veg,meat,,omnivore,NA,,Prefer not to say,not hispanic or latinx,,18-24,,,,NA
-3b44824e-83a7-403c-9008-7a66fcee2246,,ucla,veg,veg,,pescatarian,Pescatarian,asian,Asian,not hispanic or latinx,,35-44,graduate_student,,,NA
-cfaf11fe-3ac8-4849-982a-a7a13c7e001a,,ucla,veg,meat,,omnivore,NA,black or african american,Black or African American,not hispanic or latinx,,25-34,graduate_student,,,NA
-99459cd4-01d0-45ac-aea8-320f055b7c49,,ucla,meat,veg,,vegetarian,Vegetarian,asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
-a3954552-1182-45c0-b8f6-be73090e7be8,,ucla,meat,meat,,omnivore,NA,white,White,not hispanic or latinx,,45-54,,,,NA
-b1e5529c-b9c3-4c4c-944e-bd6a8d27c9e6,,ucla,meat,meat,,,"Only eat chicken and fish, not red meat.",black or african american,Black or African American,not hispanic or latinx,,25-34,graduate_student,,,NA
-3e0581c3-6ac1-4b0d-ab94-be672dbbe643,,ucla,veg,meat,,omnivore,NA,black or african american,Black or African American,not hispanic or latinx,,18-24,graduate_student,,,NA
-95863105-dc00-4de2-8e5a-d4b98f867c5c,,ucla,veg,meat,,omnivore,none,asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
-96e88ca0-91bf-442b-8f5f-013641fc123b,,ucla,meat,meat,,omnivore,NA,,NA,,,25-34,graduate_student,,,NA
-4c4fc90b-c516-4cb1-99e1-02cb7ec188d3,,ucla,meat,meat,,omnivore,NA,,NA,,,,,,,NA
-7aaf21c9-55d7-42fe-8192-921e96709406,,ucla,meat,veg,,vegetarian,Vegetarian,,NA,,,25-34,graduate_student,,,NA
-49b3b1fd-7d5a-43ea-83ee-368603ec37ae,,ucla,meat,meat,,omnivore,NA,,NA,,,,,,,NA
-9ccb7b3a-b980-4ae1-84e3-73f162e30431,,ucla,meat,meat,,omnivore,NA,black or african american,Black or African American,,,55-64,staff,,,NA
-17ca4597-1bff-4833-88ad-f3bb44fbccd0,,ucla,meat,meat,,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,,,NA
-e00d8e33-c08d-4a9d-a02e-d841649ea9fd,,ucla,veg,veg,,omnivore,NA,white,White,not hispanic or latinx,,18-24,graduate_student,,,NA
-66de6965-4115-40ce-8605-c733c9668c2f,,ucla,veg,veg,,pescatarian,Pescatarian,asian,Asian,not hispanic or latinx,,18-24,graduate_student,,,NA
-e0c28d8b-5cfd-4c23-ae0d-bdd858d55c32,,ucla,meat,veg,,,Ovo-lacto vegetarian and pescatarian,white,White,not hispanic or latinx,,65-74,,,,NA
-c63d0143-a6c5-4355-af8c-9a6ba3df287d,,ucla,meat,meat,,pescatarian,Pescatarian,black or african american,Black or African American,not hispanic or latinx,,,staff,,,NA
-4897d8a6-9222-4c61-a63b-fb37cb6796cb,,ucla,meat,meat,,omnivore,NA,,NA,,,25-34,graduate_student,,,NA
-3e13160f-d18e-42ac-b11b-08e44a3f46fa,,ucla,meat,veg,,vegetarian,Vegetarian,asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
-865ef51f-02e1-4e25-9f54-5cb2c76bac91,,ucla,meat,meat,,vegetarian,Vegetarian,,Latina ,hispanic or latinx,,18-24,graduate_student,,,NA
-3453f222-68e0-4a84-94fb-f6f5de70c4fb,,ucla,veg,meat,,omnivore,NA,white,White,not hispanic or latinx,,25-34,graduate_student,,,NA
-bd10cb74-e33d-44b3-a671-dbe11efe8907,,ucla,meat,veg,,vegan,Vegan,asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
-da894370-09cc-4214-9473-9413b9466ba1,,ucla,meat,veg,,pescatarian,Pescatarian,white,White,not hispanic or latinx,,25-34,graduate_student,,,NA
-c4b1fa1f-5a07-4de6-aeed-6376f6cef115,,ucla,meat,veg,,pescatarian,Pescatarian,asian,Asian,not hispanic or latinx,,18-24,graduate_student,,,NA
-093f4f15-c722-4148-9b7a-c1eab3c528c6,,ucla,veg,veg,,,N/-,white,White,not hispanic or latinx,,18-24,staff,,,NA
-7d0f47d3-9d41-4eb7-aaa2-63ebc7e9c3ac,,ucla,meat,meat,,omnivore,NA,white,White,hispanic or latinx,,18-24,graduate_student,,,NA
-5393c965-0786-48fb-9a17-3d3487cddcfe,,ucla,veg,veg,,omnivore,NA,,Half Mexican Half Asian,hispanic or latinx,,25-34,graduate_student,,,NA
-0ee23673-2bf9-4fd2-84df-60408dfb49e2,,ucla,meat,veg,,pescatarian,Pescatarian,,Prefer not to say,not hispanic or latinx,,25-34,graduate_student,,,NA
-25179538-ab7f-438e-ac13-8e61dbd8487d,,ucla,meat,meat,,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,,,NA
-fef66472-2ef7-419c-8c50-0e5be637991c,,ucla,meat,meat,,omnivore,NA,white,White,not hispanic or latinx,,18-24,graduate_student,,,NA
-6de64335-aa4e-4359-88f0-e257c66d22ce,,ucla,meat,meat,,omnivore,NA,,NA,hispanic or latinx,,25-34,graduate_student,,,NA
-bbc96c96-7174-44bb-9586-59be8cc40b9a,,ucsb_undergraduate_event,veg,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
-03145006-2b97-4cdf-8d79-802922fd5c8d,,ucsb_undergraduate_event,meat,meat,,vegan,Vegan,,,,female,18-24,undergraduate_student,,,
-fa549338-e545-4616-9caf-1d5a74cacae1,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-f92889f4-5d1e-4bd5-bbe5-73daf2662e6f,,ucsb_undergraduate_event,meat,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
-7af54f35-2c6f-459b-b8d9-b0211ac9481d,,ucsb_undergraduate_event,meat,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
-9e7d2d65-66ca-4261-b9f6-8b5823553d7f,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-1b3286a9-cf07-45c7-a73a-b03e0e551ea9,,ucsb_undergraduate_event,meat,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
-6a2b5103-80bf-4dce-ae49-a778ad155aa5,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-74b510ae-37b0-4952-a136-bd5a21b74e0f,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-e94dec36-f350-4560-ac86-de5485ce3e35,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-14ebb9aa-b4c3-4db6-975c-d521ea228560,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-2e18e288-09b4-4f33-bd13-cbcb50a3aef6,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-c6e8494e-b24f-4bc9-81aa-b68cb4ba8bb0,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-dc451c16-35c4-4b03-af40-6c05c86b4a40,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-f6b416b4-52c4-4755-bead-169db33584cd,,ucsb_undergraduate_event,veg,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
-f818e6f7-b54a-4999-a24e-82fc59298148,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-6409fa11-ebe1-42ea-8047-4915807d0a99,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-f6b09df5-3cc4-4c80-a993-21e583763b36,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-a9d76bc8-dd0b-4123-b8ab-4a83351a0b6a,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-03a6279b-bcd4-42d7-ac7b-cd963527c8ee,,ucsb_undergraduate_event,veg,meat,,written,Other,,,,female,18-24,undergraduate_student,,,
-4437b777-0b2f-4d00-ae6e-671465abd845,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-33240b21-c951-4553-b7d6-173d2a4d5a9e,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-c996ff78-bc13-408d-b362-a67c9f318d4e,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-da9516c8-4066-453e-9caf-455a0d37afa0,,ucsb_undergraduate_event,meat,meat,,written,Other,,,,female,18-24,undergraduate_student,,,
-9df56688-8b68-45ea-b6e4-5a71cec3280a,,ucsb_undergraduate_event,veg,veg,,written,Other,,,,female,18-24,undergraduate_student,,,
-bb1263c9-64bd-4645-a57a-70630661828e,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-3461de2f-e261-4885-b452-ca55c102acba,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-83a2c9c0-1ffa-4629-92d5-bb99273a0372,,ucsb_undergraduate_event,meat,veg,,vegan,Vegan,,,,female,18-24,undergraduate_student,,,
-33bbfb0e-1a52-4775-8ad6-98dadace0325,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-6e86e331-d699-4807-9242-ed699ae5741b,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-e2ad9c58-1beb-469e-a2e0-881b39d58b5c,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-421799e3-d58b-422b-a56c-d8acd3253c97,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-2deb6ed3-5d07-40e3-a292-69bae6912d88,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-7aaa820e-1386-4204-ac35-acb62db80a71,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-ace22ed7-3bbf-41ee-b5f7-8aac2c0f3b58,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-a3994640-e68a-4fce-a2d2-18f7c1e1e752,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-83c122b2-2bad-4dee-9a5b-0804345cfa2b,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-faa698ce-bfe0-4b0a-843d-43e77ceaadbd,,ucsb_undergraduate_event,veg,veg,,written,Other,,,,female,18-24,undergraduate_student,,,
-b3fe8cbb-43ed-4c60-afe8-d1c58800ff3c,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-5faff1ba-e01d-48d3-a374-f25dacf2bc0d,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-1b350bf0-788b-49f8-b06a-d9255e5c8e40,,ucsb_undergraduate_event,meat,veg,,pescatarian,Pescatarian,,,,female,18-24,undergraduate_student,,,
-aa370e5b-d41f-45ad-a3d1-eb4840c7a1c5,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-a00ec51b-0eeb-4b7a-b578-a47feb8da197,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-a26f1d47-e0b0-4ff4-b263-0de2cc5d5b0d,,ucsb_undergraduate_event,veg,veg,,written,Other,,,,female,18-24,undergraduate_student,,,
-61502141-52d4-4706-801c-051838657aa0,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-2ae83596-82f8-4b43-80e4-68b99600eb64,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-6a6b656d-19cc-4679-8025-c0d32addebfc,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-2e51aa88-d8fd-49ef-a4c1-7cf8b015c7c1,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-fe559d7a-d6c8-4729-9b15-8533993b2b8a,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-349efe69-7a8b-4ab8-b065-11d45ca59334,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-774953a1-4e3c-42b8-b545-8275e95e929d,,ucsb_undergraduate_event,meat,veg,,written,Other,,,,female,18-24,undergraduate_student,,,
-464ccd6d-6be6-45fa-bf2e-749299694155,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-bc9f4059-8551-4558-ad08-fc51c8b124cb,,ucsb_undergraduate_event,meat,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-a021c9e6-b441-4485-b398-6a81af320bc9,,ucsb_undergraduate_event,veg,veg,,pescatarian,Pescatarian,,,,female,18-24,undergraduate_student,,,
-cb3a13b3-2a88-499c-b2b3-478c3fbfcc8e,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-13073e02-46d8-449c-ab66-bf3695849941,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-7a2e52f3-09bb-4e17-aa4e-106ccda78ff8,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-6c8dbe6d-9561-4cca-b28a-766262c154da,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-1a26840b-614f-40b2-9bfb-9e817621f67d,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-c410a68f-440f-4453-a01a-b843ac7a761a,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-b91e352f-1cfd-4587-a2ac-dd23f2462edc,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-df70efcb-74ad-4619-8860-96cb0bc4582e,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-4f5126b1-b0d7-41ba-aa22-5a9417f90b62,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-eb715434-ed58-4f4c-bcad-5e0bfc1ff3b1,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-f083e9ae-64f5-4d92-9a2e-706944536881,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-f81830a5-4eae-49fc-9a5d-ec68cd5abde6,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-d152daa6-9532-4d95-89a7-6951cbaee5b2,,ucsb_undergraduate_event,veg,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
-7bfc4622-7da7-4333-9cdd-403ae676ecd9,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-27f5ced6-f6aa-4a22-90dd-fb0f0c46c315,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-55422cdf-fdfe-4cab-9971-06444ffcc317,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-89d3eb98-3af4-45e5-b1dd-13ad25c0c5b5,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-63a36c1b-c5b6-46a3-811e-99dd52e32e9a,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-a09ba8d2-d33c-419a-8c98-10679600b4ad,,ucsb_undergraduate_event,veg,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
-01172896-f0bd-4b38-abe0-2ea9fb9e39d0,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-6f02e450-6c84-4f42-89cc-ac1884b64966,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-e37b1dd1-3acd-4ec2-99c7-cb0ff36ed289,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-7ffcdb7a-c7c1-4902-ac90-c15b8f13b14d,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-26a1cfa6-558e-484c-a282-b098d2e6c33d,,ucsb_undergraduate_event,meat,veg,,written,Other,,,,female,18-24,undergraduate_student,,,
-b25c610d-6e4e-45f5-a5a8-fba7d56438ba,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-d8670dfd-3828-4e5e-a122-878cf92b8578,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-ea662c75-2a9e-4fef-b652-f7448bb177b4,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-d83f6a1f-c61a-47ed-a979-0cf2fd5dc4d5,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-9e280061-2d9c-45f5-8569-a7d27ae8aaff,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-479dab72-e9f0-4597-a318-7f079a4c8271,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-97197d07-43db-4e24-afeb-fa5ccbecaac8,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-bf078f5c-d7f2-4d63-bfe2-f6cc9c829ebe,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-31b1deeb-6947-4969-aa07-e49b83fd40d8,,ucsb_undergraduate_event,veg,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
-c70e8942-bcce-44cb-9acc-e2ddde1330fd,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-9aa9f273-bd88-4c68-b070-e9e2b1cb90cf,,ucsb_undergraduate_event,meat,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
-e47bea63-ab48-4b96-864c-a5cdf3b6cf83,,ucsb_undergraduate_event,veg,veg,,,,,,,female,18-24,undergraduate_student,,,
-bb36fa2d-2b5b-4319-9334-b458ba13ef76,,ucsb_undergraduate_event,meat,veg,,pescatarian,Pescatarian,,,,female,18-24,undergraduate_student,,,
-5cf40855-6f04-4796-ac88-cb8d4e6754e2,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-8df01ed2-5126-4de4-8cd4-23b2b2187810,,ucsb_undergraduate_event,meat,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-163081b9-d190-4242-8f4b-68f4fe4236b6,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-89977fac-0d57-486b-9b06-b1f022042cc0,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-94ae5ba5-c2c6-4c3c-b897-a38c074b7265,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-cde12115-2efc-4f97-8f09-0d0f7fa197e3,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-d4d7e8a0-5220-49d5-8efe-496a4bf663e1,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-029b081a-3d94-489a-85b9-b5536c0776a0,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-840d8bd8-c6ef-48c3-b1c9-b79fc07810ef,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-451aa4fe-f8f1-4ff8-b804-f37a379fccee,,ucsb_undergraduate_event,meat,meat,,written,Other,,,,female,18-24,undergraduate_student,,,
-0e89ff41-2ab5-4fad-816b-f200ad316e4c,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-ee296a58-4c19-4d0f-a2ce-c351186d7948,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-a699c796-4a2d-43c6-b315-e88e455a5ba1,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-916ce720-7ecb-4252-8826-f75d382b5623,,ucsb_undergraduate_event,meat,veg,,vegan,Vegan,,,,female,18-24,undergraduate_student,,,
-cb3304ba-abb2-40ce-bc5e-090325d2ba7f,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-b233af11-1e74-4288-83e0-96c894a33bdf,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-71d9c383-8f85-40fc-891c-fdc8805923a9,,ucsb_undergraduate_event,meat,meat,,written,Other,,,,female,18-24,undergraduate_student,,,
-1c64483f-ce3c-4fa3-aa57-9f04dcaaad73,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
-967949a2-4388-4fdd-819d-0789e9fb6d0a,,ucsb_undergraduate_event,meat,meat,,,,,,,female,18-24,undergraduate_student,,,
-f80094dc-d08a-4c8b-a146-285d3faaa3e0,,ucsb_graduate_event,veg,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-290ac4b2-0d81-405c-896d-30ea6eada048,,ucsb_graduate_event,meat,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-448bc3ab-e23a-44e5-9404-67f9824aca51,,ucsb_graduate_event,veg,,,omnivore,None of the above,,,,female,,graduate_student,,,
-b4c632a5-6260-461a-a034-5efc5d18c8f5,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-3f478236-c18f-464d-b3ef-42b93727771b,,ucsb_graduate_event,meat,veg,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
-b6498e3c-dca3-466a-999f-45b5f2b813de,,ucsb_graduate_event,meat,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-c877570b-7bc8-41d8-98ed-7c1041c04e07,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-da74fa00-7b12-4250-97b8-57aac44d4bbf,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-8f9f6dbb-0800-49c4-bd43-204331df511e,,ucsb_graduate_event,meat,veg,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
-a8c99ad4-52d1-4884-9c23-2cf26063fcc5,,ucsb_graduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
-62cf8de9-800d-495b-92c4-0c9b15c714ed,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
-d88cfcb4-004c-4721-84b5-90815d5b56ce,,ucsb_graduate_event,meat,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-525a6f8c-fe2b-4e3e-a547-6bb27f3ba397,,ucsb_graduate_event,veg,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-2a4d2146-adb9-448a-8bac-cfd4c995de08,,ucsb_graduate_event,meat,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-82e403b3-6f68-4892-837c-9b97f5307fac,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
-ff4316fa-a336-4ba5-9094-e96d95d9e126,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
-474a5325-0fca-4fdf-955b-cf1d5fd7c924,,ucsb_graduate_event,meat,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-05ab919a-6096-48f6-a75f-4050efef3fdc,,ucsb_graduate_event,meat,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-9a7d65b6-6878-4744-9f35-0ebed8733ebf,,ucsb_graduate_event,veg,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
-e1919cdc-6f74-4a6a-bb42-11fa7fc5b5dc,DVB1,uta,veg,veg,veg,omnivore,Flexitarian,,,,,,,disagree,,Other
-d77b9ddc-b76f-4b50-a472-e48af41674e5,DVB2,uta,veg,veg,veg,omnivore,Flexitarian,asian,Asian,not hispanic or latinx,male,,,disagree,,Environmental Impact
-b37b66cd-37ef-4fff-b277-4c8fca7cb958,DVB3,uta,meat,meat,meat,omnivore,Omnivorous,white,White,hispanic or latinx,female,,,agree,,Eating plant-based meals is not important to me.
-1ee53d41-f3dd-4298-8ff7-827da84d7550,DVB4,uta,veg,veg,meat,,,,,,,,,very_strongly_agree,,Environmental Impact
-5ba796bd-86cd-4445-945a-efed6ff50d63,DVB5,uta,veg,veg,veg,omnivore,Omnivorous,asian,Asian,not hispanic or latinx,female,,,disagree,,Environmental Impact
-5da42120-8157-41c0-9ea6-fd80d7aa08d6,DVB6,uta,meat,meat,meat,omnivore,Omnivorous,white,White,not hispanic or latinx,female,,,agree,,Eating plant-based meals is not important to me.
-cf0eff60-864a-4627-ab94-258784833f41,DVB7,uta,veg,veg,veg,,Lacto-ovo-vegetarian,,,,,,,very_strongly_agree,,Other
-d2e2ae83-61df-4816-88ba-f4744fc1a5a7,DVB8,uta,veg,veg,veg,vegan,Vegan,white,White,not hispanic or latinx,female,,,strongly_agree,,Environmental Impact
-8980ec25-1494-402b-b591-709af958b174,DVB9,uta,meat,meat,meat,omnivore,Omnivorous,,"White,Asian",not hispanic or latinx,female,,,strongly_agree,,Health
-b675579f-79e4-4ec2-939e-2fb16e8c3bf3,DVB10,uta,meat,veg,veg,,Lacto-ovo-vegetarian,asian,Asian,not hispanic or latinx,female,,,strongly_agree,,Health
-6d38e7a2-2cab-4632-823b-2739afffa998,DVB11,uta,veg,meat,meat,omnivore,Omnivorous,asian,Asian,not hispanic or latinx,male,,,very_strongly_agree,,Delicious
-c220bc11-643a-4b99-a151-181460868531,DVB12,uta,veg,meat,meat,omnivore,Omnivorous,asian,Asian,not hispanic or latinx,female,,,neutral,,Eating plant-based meals is not important to me.
-79a88fb6-fd35-4d5c-92bd-5f4de33d4052,DVB13,uta,meat,veg,veg,vegan,Vegan,white,White,not hispanic or latinx,male,,,strongly_agree,,Environmental Impact
-e26da33b-7780-425f-b403-6817b2114336,DVB14,uta,veg,meat,meat,omnivore,Omnivorous,asian,Asian,not hispanic or latinx,female,,,strongly_agree,,Eating plant-based meals is not important to me.
-7e81e20d-f214-49aa-ad0f-7cb48dc003e4,DVB15,uta,meat,meat,meat,,Prefer not to say,,,,,,,very_strongly_agree,,Environmental Impact
-3fd800e2-dcb7-4e60-8363-77a4c6673d80,DVB16,uta,meat,meat,meat,,,,,,,,,very_strongly_agree,,Health
-334859d6-aacf-402a-a1c9-69bd346c6b25,DVB17,uta,veg,veg,veg,,Pollotarian,black or african american,Black or African American,not hispanic or latinx,female,,,very_strongly_agree,,Health
-a2cad41d-b7cc-49e4-a0cb-fe41f322eee9,DVB18,uta,meat,veg,veg,,Lacto-vegetarian,asian,Asian,not hispanic or latinx,female,,,disagree,,Other
+739d5d20-c98c-45ac-b47d-c0816fe8ec33,1,asu_convocation,meat,veg,,written,,white,,not hispanic or latinx,female,25-34,staff,,,
+5922921a-f640-44e2-80e3-b39b769126d9,2,asu_convocation,meat,meat,,omnivore,,white,,not hispanic or latinx,female,25-34,staff,,,
+0962d2e4-0453-481f-8843-6e6abd76d4ce,3,asu_convocation,meat,veg,veg,pescatarian,,white,,not hispanic or latinx,female,35-44,staff,,strongly_agree,
+bf6b8b50-21e5-453b-a1c8-dafdc1c9e092,4,asu_convocation,meat,meat,,omnivore,,white,,not hispanic or latinx,male,45-54,staff,,,
+4dc5c8a3-52ec-4c42-bcd8-8fe28bfffb41,5,asu_convocation,meat,meat,,omnivore,,asian,,not hispanic or latinx,female,45-54,staff,,,
+7bbc3f21-db06-408f-945b-cd2a820861b8,6,asu_convocation,meat,meat,,omnivore,,white,,not hispanic or latinx,female,35-44,staff,,,
+b37c961f-7975-4d7d-940d-f97af0f75bdf,7,asu_convocation,meat,meat,meat,omnivore,,white,,not hispanic or latinx,female,25-34,staff,,disagree,
+4a437998-ab01-4c71-bc6b-638eeb389b24,8,asu_convocation,meat,meat,meat,written,Gluten free,white,,not hispanic or latinx,female,25-34,staff,,strongly_disagree,
+700f8618-fc22-4d83-a337-c29f630831d7,9,asu_convocation,meat,meat,,written,Carnivore,white,,not hispanic or latinx,male,45-54,staff,,,
+cc939867-9f9f-47ac-ad06-e0b65364f5a8,10,asu_convocation,meat,meat,,omnivore,,white,,not hispanic or latinx,male,25-34,staff,,,
+f7c76c06-6e57-4ff0-9fb5-b6f147f3feb9,11,asu_convocation,meat,veg,veg,pescatarian,,white,,not hispanic or latinx,female,45-54,staff,,agree,
+d285b1a4-1207-4d64-adae-a3a342cbf136,12,asu_convocation,meat,meat,,omnivore,,white,,hispanic or latinx,female,35-44,staff,,,
+9e12ef2f-2018-442c-a566-4cfa93a112be,13,asu_convocation,meat,meat,meat,omnivore,,white,,not hispanic or latinx,male,45-54,staff,,disagree,
+86529a9f-498d-4ae6-bf67-a240445589f9,14,asu_convocation,meat,meat,,omnivore,,white,,not hispanic or latinx,female,25-34,staff,,,
+5cc99c3c-9205-411d-8aba-5e6ce1eec1b0,15,asu_convocation,meat,meat,meat,omnivore,,,,not hispanic or latinx,,55-64,staff,,strongly_disagree,
+36d69625-3f29-4197-a230-e2f022ea62b4,16,asu_convocation,meat,veg,veg,pescatarian,,white,,,female,35-44,staff,,strongly_agree,
+fa5dbfc4-198c-4cb2-bbee-43ff02ea4ebe,17,asu_convocation,meat,meat,meat,omnivore,,,,hispanic or latinx,female,25-34,staff,,agree,
+870aeb22-9d12-408e-8389-62febec6e0e0,18,asu_convocation,meat,veg,,omnivore,,white,,hispanic or latinx,female,25-34,staff,,,
+456e9901-2cc7-4f68-a5fa-8b361474f53d,19,asu_convocation,meat,veg,,pescatarian,,,,not hispanic or latinx,male,35-44,staff,,,
+924ebd31-4534-4687-9a44-e6b64069d2d0,20,asu_convocation,meat,meat,meat,omnivore,,white,,hispanic or latinx,female,35-44,staff,,agree,
+fcfcf508-48ee-4b9b-b3bb-9498d7d4a9c6,21,asu_convocation,meat,meat,,omnivore,,,,hispanic or latinx,male,25-34,staff,,,
+315133e7-1bb4-4b0a-b82c-26273d7896c5,22,asu_convocation,veg,meat,,omnivore,,white,,not hispanic or latinx,female,25-34,staff,,,
+ba712ffa-df69-4f7d-a89c-a0b1b78091b5,23,asu_convocation,veg,veg,veg,omnivore,,white,,not hispanic or latinx,female,35-44,staff,,disagree,
+7dd8c1ea-fc49-47f0-a61b-37a3bf8e134e,24,asu_convocation,veg,meat,meat,omnivore,,written,Multi,hispanic or latinx,female,25-34,staff,,strongly_disagree,
+3f92b50a-7648-4cc9-b9c3-74eea58f7a60,25,asu_convocation,veg,veg,,omnivore,,white,,not hispanic or latinx,female,18-24,staff,,,
+2998b48c-4ca4-4142-89f9-1040a46917ba,26,asu_convocation,veg,veg,,written,I have gluten and dairy allergies,white,,,female,45-54,staff,,,
+78edea17-1086-4417-973f-1f6cc0f12623,27,asu_convocation,veg,meat,meat,omnivore,,white,,not hispanic or latinx,male,25-34,staff,,strongly_disagree,
+5db6c5d9-cc48-4fee-9d1e-08158233a56a,28,asu_convocation,veg,veg,,omnivore,,white,,not hispanic or latinx,female,25-34,staff,,,
+d638a464-e3d4-4a4c-9a2e-38ce1e37a264,29,asu_convocation,veg,meat,,written,Carnivore all the way!,white,,not hispanic or latinx,female,65-74,staff,,,
+e2ab3b25-62cb-444a-ae75-f242f01882b4,30,asu_convocation,veg,meat,meat,omnivore,,white,,hispanic or latinx,male,25-34,staff,,disagree,
+2ae10a21-6f40-44d2-8b51-e6840c89f064,31,asu_convocation,veg,meat,,omnivore,,white,,hispanic or latinx,female,55-64,staff,,,
+0f0cf317-b673-47de-8867-42cfbdbb63a7,32,asu_convocation,veg,veg,veg,vegetarian,,white,,not hispanic or latinx,female,45-54,staff,,strongly_agree,
+025d24f3-b900-4713-a93e-ab7824b4d83b,33,asu_convocation,veg,veg,veg,omnivore,,white,,not hispanic or latinx,female,55-64,staff,,disagree,
+79f304bd-6d3a-45cd-9185-b175c6541ca4,34,asu_convocation,veg,veg,veg,omnivore,,written,,not hispanic or latinx,female,25-34,staff,,disagree,
+6cd755cd-76fc-4126-bab4-da8fbb8e3448,35,asu_convocation,veg,veg,,pescatarian,,white,,not hispanic or latinx,female,35-44,staff,,,
+782f6847-0091-4640-a6fe-5876ef72bd05,36,asu_convocation,veg,meat,meat,omnivore,,white,,not hispanic or latinx,female,18-24,staff,,strongly_disagree,
+762f35c1-8af3-44a6-becd-eef06b9bd569,37,asu_convocation,veg,meat,,omnivore,,white,,not hispanic or latinx,male,35-44,staff,,,
+90a14724-946d-432a-97d1-02ae21f43bfa,38,asu_convocation,veg,meat,,omnivore,,white,,not hispanic or latinx,female,45-54,staff,,,
+44a4c801-fa60-488c-8108-d24461f48929,39,asu_convocation,veg,meat,meat,omnivore,,white,,not hispanic or latinx,male,35-44,staff,,strongly_disagree,
+65f132d0-9490-41bf-8877-1e3dc118af65,40,asu_convocation,veg,veg,veg,omnivore,,,,,female,55-64,,,strongly_disagree,
+d318d852-5f08-4a28-8eb9-41ebbab45680,41,asu_convocation,veg,meat,,,,,,,,,,,,
+04c6e880-f2e9-40db-9d50-c2f315019224,42,asu_convocation,veg,meat,,,,,,,,,,,,
+be4634eb-8fee-40e7-a8fa-d6a68a52f03a,43,asu_convocation,veg,veg,,,,,,,,,,,,
+3b1a1df6-06c0-4e7d-9458-d582325362f8,44,asu_convocation,veg,meat,meat,,,,,,,,,,strongly_agree,
+658eb9a8-4820-4b5b-9825-47ce21fde809,45,asu_convocation,meat,meat,meat,,,,,,,,,,strongly_disagree,
+04018713-280c-4adf-a1d7-85dd08b7b38d,46,asu_convocation,meat,meat,meat,,,,,,,,,,disagree,
+814b287a-793d-4b4e-b9b5-9a936e578d77,1,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,35-44,faculty,,disagree,
+a9ee1cd1-ce3b-495b-89d2-71bd45c9fd96,2,asu_research_day,meat,veg,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,,
+8f0e7d58-40b2-4bff-b107-8660b9fabb39,3,asu_research_day,veg,veg,veg,omnivore,None of the above,asian,,not hispanic or latinx,,35-44,faculty,,disagree,
+0683cf43-f5d0-4f98-ba04-29deb5fe6121,4,asu_research_day,veg,meat,,omnivore,None of the above,,,not hispanic or latinx,,25-34,staff,,,
+f6739d3f-bbc5-4d5d-86b3-aa964d989184,5,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,,
+a38f24db-48c5-43bb-b556-1c12014e619a,6,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,not hispanic or latinx,,45-54,faculty,,strongly_disagree,
+d92a9448-2d50-4cc6-a597-763e0f15b572,7,asu_research_day,veg,veg,veg,vegan,Vegan,white,,not hispanic or latinx,,35-44,graduate_student,,strongly_agree,
+c0d10004-974b-47a6-8453-f27633d2f5b2,8,asu_research_day,veg,veg,veg,,,,,,,,,,disagree,
+fcd6b9b4-c64b-411f-90fa-1a7ef981bdaf,9,asu_research_day,veg,veg,,,,,,,,,,,,
+37a7926b-207a-4b51-9dae-d11ad74eaae4,10,asu_research_day,meat,veg,veg,vegetarian,Vegetarian,white,,not hispanic or latinx,,35-44,faculty,,strongly_agree,
+1e5af6de-66c5-47a0-80c7-08f1c797bcd6,11,asu_research_day,veg,veg,meat,written,Other,asian,,not hispanic or latinx,,25-34,graduate_student,,disagree,
+2fa3f027-6965-4028-9902-031a2ee2137b,12,asu_research_day,veg,veg,veg,,,,,,,,,,strongly_agree,
+77785f54-0842-4ce5-842b-8cd4c0d5a31b,13,asu_research_day,veg,meat,,omnivore,None of the above,white,,hispanic or latinx,,45-54,staff,,,
+23216f94-99f9-429d-8088-e7f83edc718c,14,asu_research_day,veg,veg,,omnivore,None of the above,,,not hispanic or latinx,,45-54,,,,
+725980c1-5421-4631-96f1-e5178d6af1b0,15,asu_research_day,veg,meat,,omnivore,None of the above,asian,,hispanic or latinx,,18-24,undergraduate_student,,,
+79dfd350-c9cc-4e88-ae58-93eb933d18d5,16,asu_research_day,veg,veg,,omnivore,None of the above,,,not hispanic or latinx,,45-54,staff,,,
+6f3dc980-ecb4-4b38-accd-fba9d1133fec,17,asu_research_day,meat,veg,,pescatarian,Pescatarian,white,,not hispanic or latinx,,35-44,faculty,,,
+992716f0-c7b9-42d5-839b-0cb32455b22d,18,asu_research_day,meat,meat,meat,omnivore,None of the above,,,,,,staff,,disagree,
+e151938c-1a47-4e2d-8ba9-7cec2a34b176,19,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,35-44,faculty,,,
+f3fe3832-12d9-4290-b579-2a399a2bf0c3,20,asu_research_day,meat,meat,veg,omnivore,None of the above,white,,hispanic or latinx,,45-54,faculty,,agree,
+9e46448c-6a20-4f0b-978b-0bd904e0702d,21,asu_research_day,meat,veg,veg,pescatarian,Pescatarian,white,,not hispanic or latinx,,35-44,faculty,,agree,
+3bbf5e95-6647-420b-b46c-7912ba58b007,22,asu_research_day,meat,veg,veg,vegetarian,Vegetarian,white,,not hispanic or latinx,,25-34,staff,,agree,
+11258d5b-eea6-4e47-96ce-21ff74494a92,23,asu_research_day,veg,meat,meat,,,asian,,not hispanic or latinx,,55-64,staff,,strongly_agree,
+3da42b14-9421-4fae-b65d-58889c634206,24,asu_research_day,meat,meat,,omnivore,None of the above,white,,,,25-34,,,,
+17cbbc3b-8d0c-4ead-b84e-d99693da6acd,25,asu_research_day,meat,meat,meat,written,Other,white,,not hispanic or latinx,,45-54,,,strongly_disagree,
+8112ef97-618d-490f-9b67-62444297bc88,26,asu_research_day,veg,meat,,omnivore,None of the above,,,,,,,,,
+ed22add8-0395-4b54-884e-44f72ba034b6,27,asu_research_day,veg,veg,veg,written,Other,white,,hispanic or latinx,,35-44,faculty,,strongly_agree,
+bc0d7aa7-f6b7-4ef9-86d5-94eb46805720,28,asu_research_day,meat,veg,,vegetarian,Vegetarian,white,,hispanic or latinx,,18-24,,,,
+bb047ea6-e61d-40bd-8648-5295cc881319,29,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,35-44,faculty,,strongly_disagree,
+37b222ec-72ca-44ac-9c71-99b8ecc40e38,30,asu_research_day,meat,veg,veg,vegan,Vegan,white,,not hispanic or latinx,,18-24,graduate_student,,agree,
+229a7dc1-1455-4360-b72d-0425fb5b1522,31,asu_research_day,meat,veg,veg,vegetarian,Vegetarian,asian,,not hispanic or latinx,,25-34,graduate_student,,strongly_agree,
+3e5c8ba0-6b40-4fe9-9984-99111093efdd,32,asu_research_day,meat,meat,,omnivore,None of the above,white,,hispanic or latinx,,25-34,staff,,,
+637a21ad-1a7b-40ee-ae4b-d2bd94334eaa,33,asu_research_day,meat,veg,,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,graduate_student,,,
+20836285-fb14-4247-b928-612d76b228cf,34,asu_research_day,veg,veg,,omnivore,None of the above,asian,,not hispanic or latinx,,18-24,graduate_student,,,
+6ac4d39d-5a95-4b3f-bf45-6151f7af0bc6,35,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,25-34,staff,,agree,
+b83133de-03fa-4388-8922-8fbbdfe60ec3,36,asu_research_day,veg,meat,meat,omnivore,None of the above,white,,,,25-34,graduate_student,,strongly_agree,
+a29fe2a3-eb01-4596-8c02-c51db5c80444,37,asu_research_day,meat,meat,meat,written,Other,white,,not hispanic or latinx,,45-54,,,strongly_disagree,
+099a20a0-7a6e-4b40-a21c-24bf21cb1684,38,asu_research_day,veg,veg,,omnivore,None of the above,white,,not hispanic or latinx,,35-44,staff,,,
+e1295d86-81e3-4c35-8750-a2cc28ba2f8e,39,asu_research_day,veg,meat,meat,omnivore,None of the above,white,,hispanic or latinx,,25-34,graduate_student,,disagree,
+43e01443-bfa2-4a00-8778-03d5f5ee5556,40,asu_research_day,veg,veg,veg,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,graduate_student,,strongly_disagree,
+02b0c872-b0d3-489e-8b44-d05da2072616,41,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,not hispanic or latinx,,35-44,graduate_student,,agree,
+eec5e6c5-e116-4eef-a061-924ea62cdb2a,42,asu_research_day,veg,meat,meat,omnivore,None of the above,white,,hispanic or latinx,,Under 18,,,disagree,
+5f258569-52fd-4e95-856f-187ebc80ff9f,43,asu_research_day,meat,meat,meat,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,graduate_student,,disagree,
+70ce2641-9d27-43e2-821e-02a5067fd22d,44,asu_research_day,veg,meat,veg,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,staff,,disagree,
+1f3d77ab-84bd-4e77-8b12-4ea76c877025,45,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,45-54,faculty,,disagree,
+2d50505d-8ac4-4077-b2d9-088cc5cb8d01,46,asu_research_day,veg,meat,,omnivore,None of the above,,,hispanic or latinx,,35-44,graduate_student,,,
+596c11a6-d8c9-4e8a-98d0-57fa6c510d90,47,asu_research_day,veg,veg,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,,,,
+cedab167-aa19-4e09-9a60-06360e001efe,48,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,18-24,undergraduate_student,,,
+80442b94-6ebf-4945-8d96-2d35ce4b1c76,49,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,18-24,undergraduate_student,,,
+a587bb6e-64a6-4dc4-aa0a-3a687dc8814e,50,asu_research_day,veg,veg,,omnivore,None of the above,white,,hispanic or latinx,,Under 18,,,,
+10a86e1b-7016-472d-bb91-eef2e891523c,51,asu_research_day,meat,meat,meat,omnivore,None of the above,,,not hispanic or latinx,,25-34,staff,,agree,
+af1a6732-5ab2-449d-9ef1-41adf0e4a3ec,52,asu_research_day,veg,veg,veg,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,faculty,,strongly_disagree,
+322d73b9-3442-49bb-9e31-66b2a08a0521,53,asu_research_day,meat,meat,veg,omnivore,None of the above,,,not hispanic or latinx,,45-54,,,disagree,
+3fad39f5-33ec-49ad-8166-5f444ac2cd8f,54,asu_research_day,veg,veg,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,,
+95c9212c-443f-45a0-9c71-505bd73bbe9f,55,asu_research_day,veg,,meat,,,,,,,,,,disagree,
+5ea2967e-d797-4e9a-91d7-ced584448630,56,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,,
+2aa70917-832a-4b62-a623-450e8f7769c6,57,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,hispanic or latinx,,18-24,staff,,disagree,
+93d1313b-9f6c-43ef-9a85-522608906fe9,58,asu_research_day,veg,meat,,omnivore,None of the above,white,,not hispanic or latinx,,55-64,faculty,,,
+9ae8b857-9d4d-4ed0-97de-58ff7a19c72f,59,asu_research_day,veg,meat,meat,omnivore,None of the above,written,,,,25-34,graduate_student,,disagree,
+7e8206de-448c-4768-83be-82ce1718f40a,60,asu_research_day,veg,meat,,omnivore,None of the above,white,,hispanic or latinx,,25-34,staff,,,
+6b5fb203-d7d9-497b-898f-1b5784b054a4,61,asu_research_day,veg,meat,,omnivore,None of the above,,,not hispanic or latinx,,35-44,staff,,,
+f0f29b5a-0ca5-43b3-8b05-58b49cac206b,62,asu_research_day,veg,veg,veg,omnivore,None of the above,,,not hispanic or latinx,,45-54,faculty,,agree,
+6790881a-25ee-4409-b133-36cdd80ac853,63,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,disagree,
+fcdedbc6-ef2f-41b9-a7fb-10c260c3b6d1,64,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,55-64,staff,,disagree,
+98da855b-792f-4b25-af3f-0e2c25d45d7e,65,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,not hispanic or latinx,,25-34,graduate_student,,disagree,
+6b35640a-f468-4869-9b20-2fdf4c138516,66,asu_research_day,meat,veg,,omnivore,None of the above,asian,,not hispanic or latinx,,45-54,staff,,,
+2a1f2f24-43fb-43e6-82b8-da85a331ff3e,67,asu_research_day,meat,meat,meat,omnivore,None of the above,asian,,not hispanic or latinx,,55-64,faculty,,disagree,
+933b291e-da7a-43ae-aa50-492e10626cac,68,asu_research_day,veg,veg,,vegetarian,Vegetarian,asian,,hispanic or latinx,,Under 18,undergraduate_student,,,
+424dabdf-5442-462e-8631-0c983026d6ad,69,asu_research_day,meat,veg,veg,vegan,Vegan,white,,not hispanic or latinx,,25-34,faculty,,strongly_agree,
+5e7b0d2e-b5d8-438e-959a-9412d4df54e0,70,asu_research_day,veg,veg,,omnivore,None of the above,,,hispanic or latinx,,35-44,staff,,,
+f60665b2-f93c-4561-9dcf-a1540e93f4b8,71,asu_research_day,veg,veg,veg,vegetarian,Vegetarian,white,,not hispanic or latinx,,25-34,graduate_student,,strongly_disagree,
+09c1ff34-070a-4a5a-a5e2-bd943fc36b5b,72,asu_research_day,veg,meat,,omnivore,None of the above,white,,hispanic or latinx,,Under 18,,,,
+3ba2e7fc-018b-445a-ba1c-9219238228c6,73,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,35-44,faculty,,disagree,
+e3970583-59bc-47c6-96c6-1218818378c9,74,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,staff,,,
+911947e8-a272-4d76-a103-6367762f55db,75,asu_research_day,meat,,meat,,,,,,,,,,strongly_disagree,
+273d8b46-80e6-43fa-8ffd-ab1171401885,76,asu_research_day,veg,meat,meat,,,,,,,,graduate_student,,disagree,
+2fd0ebc9-4471-4f9c-be50-8a225e0baf2d,77,asu_research_day,meat,veg,veg,vegetarian,Vegetarian,,,,,35-44,staff,,strongly_agree,
+693a303b-a0b3-412a-acbd-ce29bbc10d66,78,asu_research_day,meat,meat,veg,omnivore,None of the above,white,,hispanic or latinx,,35-44,staff,,disagree,
+ff694a3c-2704-48b3-8da4-1297147aae23,79,asu_research_day,veg,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,55-64,faculty,,strongly_disagree,
+167b8127-941c-4b0f-9ba1-49af811a498d,80,asu_research_day,meat,meat,meat,omnivore,None of the above,,,not hispanic or latinx,,45-54,staff,,strongly_disagree,
+bb0b8b6f-7618-4f99-8820-1eb258c8e4d0,81,asu_research_day,veg,veg,veg,pescatarian,Pescatarian,asian,,not hispanic or latinx,,45-54,faculty,,agree,
+791ac9c5-b652-4bac-9a33-61d7cd78f5cf,82,asu_research_day,meat,meat,meat,omnivore,None of the above,asian,,not hispanic or latinx,,25-34,staff,,strongly_disagree,
+14c920e8-326f-4076-bbe2-3f415a4ec8bf,83,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,not hispanic or latinx,,25-34,staff,,disagree,
+a343a82a-39a9-4101-8a3a-417def66b87f,84,asu_research_day,veg,veg,,written,Other,white,,not hispanic or latinx,,45-54,faculty,,,
+ead07fb0-e755-4291-8f2b-ddec2e1558dd,85,asu_research_day,veg,veg,veg,vegan,Vegan,white,,not hispanic or latinx,,55-64,staff,,strongly_agree,
+1f31800c-1fa8-4828-bc31-6db7736aa5c1,86,asu_research_day,veg,meat,,,,,,,,,,,,
+5131bd24-bc71-4f6f-b036-43d8c41546ed,87,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,not hispanic or latinx,,55-64,staff,,agree,
+9261556f-a1c5-49d5-8d13-0c86e36140d9,88,asu_research_day,meat,,veg,,,,,,,,,,strongly_agree,
+e75700cd-05cc-44a2-a059-358951957d1d,89,asu_research_day,meat,veg,,pescatarian,Pescatarian,,,,,,,,,
+4b518ee3-8361-4cb6-b476-48b072e98452,90,asu_research_day,meat,meat,meat,omnivore,None of the above,white,,not hispanic or latinx,,45-54,staff,,strongly_disagree,
+5d2d2f7e-dcbf-4932-ae85-01672861cf7b,91,asu_research_day,meat,meat,,omnivore,None of the above,white,,not hispanic or latinx,,25-34,staff,,,
+725fbd3c-4fb2-40da-ad9f-7aea11eef380,92,asu_research_day,meat,,meat,,,,,,,,,,strongly_disagree,
+155de663-6bfd-4873-9a8d-3aba962a4654,93,asu_research_day,veg,veg,,vegetarian,Vegetarian,,,,,,,,,
+5b9538c4-b3ed-4d22-8162-a300a29c6ba5,94,asu_research_day,veg,veg,veg,omnivore,None of the above,white,,hispanic or latinx,,35-44,staff,,disagree,
+d21ff40a-7847-468e-82ab-49433411f0be,,ucla,veg,veg,veg,pescatarian,Pescatarian,,Mexican American,hispanic or latinx,,25-34,graduate_student,strongly_agree,,NA
+23aef68f-ba66-4b69-96eb-7d43e3faec73,,ucla,meat,meat,veg,pescatarian,Pescatarian,black or african american,Black or African American,not hispanic or latinx,,35-44,graduate_student,agree,,NA
+9ec91090-9daa-42cf-8cda-15b034e7ff98,,ucla,meat,meat,meat,omnivore,NA,asian,Asian,not hispanic or latinx,,25-34,graduate_student,strongly_agree,,NA
+fa5ca4c7-bd71-4602-8558-7a8dca087eac,,ucla,veg,veg,veg,pescatarian,Pescatarian,,NA,,,,graduate_student,agree,,NA
+b94132c9-fdb6-476e-bf7d-9ac9e9d7f735,,ucla,veg,veg,meat,,N/A,,Latino,hispanic or latinx,,18-24,graduate_student,agree,,I don’t always eat plant bases but I try to now and then due to the lower carbon footprint and all the other reasons listed above
+1e51d13a-5832-438e-9218-fb10dac30e48,,ucla,meat,veg,veg,vegetarian,Vegetarian,black or african american,Black or African American,hispanic or latinx,,25-34,staff,strongly_agree,,NA
+86e30af8-c3d7-49e9-8e92-e5a273d6523a,,ucla,veg,veg,veg,omnivore,NA,multiracial,Mixed (Mestiza),hispanic or latinx,,18-24,graduate_student,agree,,NA
+3f7a6a1d-3490-48cb-a004-14c426b1d248,,ucla,veg,veg,veg,pescatarian,Pescatarian,white,White,not hispanic or latinx,,25-34,graduate_student,strongly_agree,,NA
+3371209b-d951-41fe-a80b-85be0a78343a,,ucla,meat,meat,meat,omnivore,NA,white,White,not hispanic or latinx,,65-74,faculty,strongly_agree,,NA
+018ff926-5895-47fb-ba47-baadcbb4d432,,ucla,veg,veg,veg,omnivore,NA,white,White,not hispanic or latinx,,25-34,graduate_student,strongly_agree,,I don't often crave meat and usually prefer plant based options
+cd971737-bad5-41e1-8a8d-51d4bcc1e011,,ucla,meat,meat,meat,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,agree,,It is important to take care of the planet 
+0c399a39-98f8-4d12-a847-a837fe1b80e7,,ucla,meat,meat,meat,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,disagree,,"Some people have food restrictions or preferences for the foods that can be eaten. Although a plant based option was available, it was not vegan so some individuals could not eat. The broccoli had meat bits, the pesto pasta was made with cheese. I eat plant based to others have options."
+09e0cd29-88e5-436e-b5b9-3a7038fbfb0a,,ucla,meat,meat,meat,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,agree,,NA
+2d132753-d3e7-4df9-8535-f216cad0e7a0,,ucla,veg,meat,meat,omnivore,NA,,NA,hispanic or latinx,,25-34,graduate_student,agree,,NA
+3a63cb5a-9135-4e2b-942f-6f1f2208ee01,,ucla,veg,veg,veg,,Halal,arab,Arab,not hispanic or latinx,,18-24,graduate_student,,,"I eat meat, however it has to be Halal so for that reason I oftentimes opt for vegetarian options :)"
+e1ed5e62-379d-414a-b46b-538a15926e14,,ucla,veg,veg,veg,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,strongly_agree,,NA
+fb46ec38-266e-473d-a9c3-3acf32716c79,,ucla,meat,veg,veg,vegetarian,Vegetarian,asian,Asian,not hispanic or latinx,,25-34,graduate_student,strongly_agree,,I follow and practice an Indian religion called Hinduism and because of that I have been a vegetarian since my birth.
+ac878b20-25e8-4736-9424-b92d9a510cf1,,ucla,meat,meat,meat,,No pork,white,White,not hispanic or latinx,,55-64,faculty,agree,,NA
+5a42cfd4-e436-4ce7-9f83-ecc06a4aaa59,,ucla,veg,veg,veg,vegan,Vegan,white,White,not hispanic or latinx,,18-24,graduate_student,strongly_agree,,NA
+79c89c2d-1d48-4a85-be29-e1f00129ef1f,,ucla,veg,veg,veg,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,strongly_agree,,If I can’t confirm the quality of the meat I would rather go plant based. 
+b8848898-879f-4e06-adeb-e7b66255814b,,ucla,meat,meat,meat,,no pork,white,White,not hispanic or latinx,,18-24,graduate_student,disagree,,NA
+436b7ae0-c8f2-407b-b72a-378144c7e415,,ucla,meat,meat,meat,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,agree,,NA
+21c1834f-b3d4-4be8-ace5-993559806208,,ucla,meat,meat,meat,omnivore,NA,asian,Asian,not hispanic or latinx,,25-34,graduate_student,agree,,NA
+4df2ad9b-fb7c-4afd-b087-834d9923baad,,ucla,meat,veg,,omnivore,NA,,NA,hispanic or latinx,,25-34,graduate_student,,,NA
+9dc64edc-29cd-47e8-9ed3-f3ce04ab6044,,ucla,veg,veg,,,Meat,asian,Asian,not hispanic or latinx,,18-24,graduate_student,,,NA
+451aacf4-4af5-4d3f-8ac4-5740fea31087,,ucla,meat,meat,,omnivore,NA,white,White,not hispanic or latinx,,25-34,graduate_student,,,NA
+2338ee5f-c487-47a1-8734-0a5ff9aa0fc1,,ucla,veg,veg,,pescatarian,Pescatarian,black or african american,Black or African American,not hispanic or latinx,,25-34,graduate_student,,,NA
+a4428a7c-53b9-44e1-95da-60c68fc54f76,,ucla,veg,veg,,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,,,NA
+3843d670-4c26-4f42-9e91-08c161ab4f1c,,ucla,veg,veg,,omnivore,NA,asian,Asian,not hispanic or latinx,,18-24,graduate_student,,,NA
+9fa106e5-8103-4f00-939a-3b1259b913c7,,ucla,meat,meat,,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,,,NA
+3a193dcb-f97d-4368-b95c-9b06798fd63d,,ucla,meat,veg,,vegetarian,Vegetarian,white,White,not hispanic or latinx,,45-54,faculty,,,NA
+4a35136c-f5d9-4682-a58a-252260d74f4e,,ucla,meat,meat,,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,,,NA
+57ac3b6c-5321-40ab-b532-d67bd25ec222,,ucla,veg,veg,,,I do not eat red meat (chicken and fish okay),asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
+bc1c1dd4-f528-449b-ae40-fd996a2456a1,,ucla,veg,veg,,omnivore,NA,asian,Asian,not hispanic or latinx,,18-24,graduate_student,,,NA
+c3df8ae3-64d1-4d76-982f-7adc7f6eda11,,ucla,meat,meat,,omnivore,NA,,NA,not hispanic or latinx,,45-54,faculty,,,NA
+48dda240-4997-4c0d-8d6b-32b541256005,,ucla,meat,meat,,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,,,NA
+6276beb6-058c-4188-a5a2-db5227c3fd11,,ucla,veg,veg,,pescatarian,Pescatarian,white,White,not hispanic or latinx,,25-34,graduate_student,,,NA
+ac68506f-c44c-4a1e-bdea-76abb8903f33,,ucla,meat,meat,,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,,,NA
+0216ff34-81fd-45a0-b59a-64b5879e0341,,ucla,meat,meat,,,N/A,,mixed,hispanic or latinx,,25-34,graduate_student,,,NA
+2802b41c-d35e-4837-857e-3439cc8f89f4,,ucla,veg,veg,,,Gluten Free (allergic to gluten),,Mexican and Persian,hispanic or latinx,,25-34,graduate_student,,,NA
+ffc5c1ee-29e4-4c58-9639-ec00589f0b56,,ucla,meat,veg,,vegetarian,Vegetarian,white,White,not hispanic or latinx,,45-54,faculty,,,NA
+8954bf9e-42a2-43b8-84fe-49df88adb285,,ucla,veg,veg,,omnivore,NA,white,White,not hispanic or latinx,,45-54,faculty,,,NA
+9e47dfac-79d9-41da-bdc0-42b48477a751,,ucla,veg,veg,,omnivore,NA,asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
+7597374d-e073-44a9-8e81-8d7478d96a18,,ucla,meat,meat,,omnivore,NA,white,White,hispanic or latinx,,18-24,graduate_student,,,NA
+41f52d24-7a9b-4446-8f94-c7298c4b774b,,ucla,veg,veg,,pescatarian,Pescatarian,multiracial,Multiracial,hispanic or latinx,,18-24,graduate_student,,,NA
+32790056-856b-4101-9a09-b2f880164a2b,,ucla,veg,veg,,pescatarian,Pescatarian,white,White,not hispanic or latinx,,45-54,staff,,,NA
+9830f3d4-d23d-4f23-98a4-52f3cb7a9ad8,,ucla,veg,meat,,omnivore,NA,,Prefer not to say,not hispanic or latinx,,18-24,,,,NA
+06166b58-4cbc-4d13-981e-954a0e26e255,,ucla,veg,veg,,pescatarian,Pescatarian,asian,Asian,not hispanic or latinx,,35-44,graduate_student,,,NA
+008cd7d3-9ca5-4a06-a250-1856cdc8b3b4,,ucla,veg,meat,,omnivore,NA,black or african american,Black or African American,not hispanic or latinx,,25-34,graduate_student,,,NA
+913c71de-17cd-42be-94ec-195bfb2ac1dc,,ucla,meat,veg,,vegetarian,Vegetarian,asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
+bfd42861-3a23-4045-a817-b8e33f4b6cd3,,ucla,meat,meat,,omnivore,NA,white,White,not hispanic or latinx,,45-54,faculty,,,NA
+24576d32-d4f5-412b-b88d-a792bc412eb7,,ucla,meat,meat,,,"Only eat chicken and fish, not red meat.",black or african american,Black or African American,not hispanic or latinx,,25-34,graduate_student,,,NA
+c08f8d16-de2a-4258-be56-165c84be4123,,ucla,veg,meat,,omnivore,NA,black or african american,Black or African American,not hispanic or latinx,,18-24,graduate_student,,,NA
+bc0f83f0-408c-419f-9084-2182daade440,,ucla,veg,meat,,omnivore,none,asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
+6966bff1-b3c7-4572-a337-0305825d96f1,,ucla,meat,meat,,omnivore,NA,,NA,,,25-34,graduate_student,,,NA
+dbe0602d-50b7-471a-8503-ff6408f00f1c,,ucla,meat,meat,,omnivore,NA,,NA,,,,,,,NA
+07903e18-fbc6-4a39-a57c-8cf41a577fda,,ucla,meat,veg,,vegetarian,Vegetarian,,NA,,,25-34,graduate_student,,,NA
+0c73e699-f265-4fa2-9579-1668c4c05e46,,ucla,meat,meat,,omnivore,NA,,NA,,,,,,,NA
+ffa7c8a4-3b8d-47d1-80af-da48e7efa015,,ucla,meat,meat,,omnivore,NA,black or african american,Black or African American,,,55-64,staff,,,NA
+79a9544e-2fd8-4d5c-98c7-9482076eebb4,,ucla,meat,meat,,omnivore,NA,white,White,hispanic or latinx,,25-34,graduate_student,,,NA
+667ef8d9-e7fb-4720-b719-6b5fbda9dda5,,ucla,veg,veg,,omnivore,NA,white,White,not hispanic or latinx,,18-24,graduate_student,,,NA
+87e17200-1b61-4fc3-8189-1baf4cb1793a,,ucla,veg,veg,,pescatarian,Pescatarian,asian,Asian,not hispanic or latinx,,18-24,graduate_student,,,NA
+ff3bb742-9fe9-40a9-ab5c-f21c60daa886,,ucla,meat,veg,,,Ovo-lacto vegetarian and pescatarian,white,White,not hispanic or latinx,,65-74,faculty,,,NA
+247274d6-b531-44e8-aa52-899be5fc4859,,ucla,meat,meat,,pescatarian,Pescatarian,black or african american,Black or African American,not hispanic or latinx,,,staff,,,NA
+a8901da8-db77-48b4-afea-ea62f83b683a,,ucla,meat,meat,,omnivore,NA,,NA,,,25-34,graduate_student,,,NA
+ffbbae6d-87ff-4d90-9497-883f72a15f44,,ucla,meat,veg,,vegetarian,Vegetarian,asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
+c680f4f6-ff36-4827-9200-f2df56b47580,,ucla,meat,meat,,vegetarian,Vegetarian,,Latina ,hispanic or latinx,,18-24,graduate_student,,,NA
+4a41aabf-3da1-4f91-86b1-bd0bd4b32a41,,ucla,veg,meat,,omnivore,NA,white,White,not hispanic or latinx,,25-34,graduate_student,,,NA
+76da0d31-db10-45d9-9a31-5a5c04a5c38f,,ucla,meat,veg,,vegan,Vegan,asian,Asian,not hispanic or latinx,,25-34,graduate_student,,,NA
+96211e9b-1e2e-42e6-beb6-28f16c0b48b3,,ucla,meat,veg,,pescatarian,Pescatarian,white,White,not hispanic or latinx,,25-34,graduate_student,,,NA
+ec47db0f-6967-4e31-8c72-cc8590d3af2b,,ucla,meat,veg,,pescatarian,Pescatarian,asian,Asian,not hispanic or latinx,,18-24,graduate_student,,,NA
+ba933a92-4c13-4296-8246-6285185da5a3,,ucla,veg,veg,,,N/-,white,White,not hispanic or latinx,,18-24,staff,,,NA
+b03cd62b-3bf2-42bd-b5bf-521ca0388b94,,ucla,meat,meat,,omnivore,NA,white,White,hispanic or latinx,,18-24,graduate_student,,,NA
+661f6b94-8c0c-44d4-adc7-c77d7ed938af,,ucla,veg,veg,,omnivore,NA,,Half Mexican Half Asian,hispanic or latinx,,25-34,graduate_student,,,NA
+8f502f33-355d-48dc-8396-7ddf86edb061,,ucla,meat,veg,,pescatarian,Pescatarian,,Prefer not to say,not hispanic or latinx,,25-34,graduate_student,,,NA
+af858a2a-8619-488b-b5d0-965c80eeabec,,ucla,meat,meat,,omnivore,NA,,Prefer not to say,hispanic or latinx,,25-34,graduate_student,,,NA
+f2670c61-2865-41c1-9591-c1b188999494,,ucla,meat,meat,,omnivore,NA,white,White,not hispanic or latinx,,18-24,graduate_student,,,NA
+422e3962-8e16-4fbd-82b0-fc69a42147ee,,ucla,meat,meat,,omnivore,NA,,NA,hispanic or latinx,,25-34,graduate_student,,,NA
+1fcae4f3-f5a7-4803-8b58-865b6c3ea926,,ucsb_undergraduate_event,veg,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
+d5397f39-cae9-4a3d-92c6-1a3c1ebd6c85,,ucsb_undergraduate_event,meat,meat,,vegan,Vegan,,,,female,18-24,undergraduate_student,,,
+5d104c95-5992-4226-95dc-0ea2aeb01131,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+0bee01dc-e294-4608-a0b0-d63e0cf0c97a,,ucsb_undergraduate_event,meat,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
+6bc4a41a-13dd-4282-89cf-08923a33091f,,ucsb_undergraduate_event,meat,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
+64b98930-8ba8-460c-a886-6abe548690ef,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+c5a4be50-846b-4088-ac7c-c25ec26cd1bb,,ucsb_undergraduate_event,meat,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
+4d74aa80-1e4c-4816-8aa8-50b7fb6f9f02,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+456d75c0-bb81-422b-af18-c6f78abd90f1,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+89020162-4c96-487e-b4b7-470b19a450c2,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+89acb732-a98c-40dd-92c6-647bc1a385cc,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+27cd1a11-6cac-4c05-9f83-a81b21654537,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+839a7100-0e23-4766-a585-ad3b3d375f34,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+f8200543-db11-496e-b54c-0ac03bde8593,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+3e239dde-fcc8-4411-b7ae-ae3c30cab58d,,ucsb_undergraduate_event,veg,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
+1e9a8a20-655f-4945-9317-3c5e0abb779d,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+4d6fbcfb-dd4f-4d33-9eae-62faf7a050f8,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+864dba35-8ef2-4cdb-a066-f90e0015d81b,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+86db73c5-e3ba-47e8-8dcb-d0ed48cc7481,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+d955deb3-9b98-48b2-97cb-879dfddc71f5,,ucsb_undergraduate_event,veg,meat,,written,Other,,,,female,18-24,undergraduate_student,,,
+17ee4c1a-c100-4b0d-b840-b3f61985fefe,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+ba666a20-1d6a-4dde-9bda-911791379d0f,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+9cb05a48-d977-4358-a67b-efb621fa341f,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+4605f68b-867f-4159-af37-5c47e1723b20,,ucsb_undergraduate_event,meat,meat,,written,Other,,,,female,18-24,undergraduate_student,,,
+3c060a30-2d10-4ade-8f9b-ac3a775a3e67,,ucsb_undergraduate_event,veg,veg,,written,Other,,,,female,18-24,undergraduate_student,,,
+2eb2c25a-c67c-4a44-8532-77d768c9623f,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+b332d3f8-363c-4162-ab62-58ffeef5bfff,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+e9601a0b-cc29-4f29-87d1-f7d8f444487f,,ucsb_undergraduate_event,meat,veg,,vegan,Vegan,,,,female,18-24,undergraduate_student,,,
+a44c6e64-bfca-4e87-8c65-5edc18527b35,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+302b3a9f-4b29-4414-9a82-0d724dab989c,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+1ed1e98a-e3db-4365-abe5-af52c0634499,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+f7d6c110-57e0-4016-ba83-8ae03e59333a,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+57bcf692-4d69-4f57-97b7-8e628667cfca,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+53c4d90e-cc9b-4c1f-8491-9d1cda482e96,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+a1747aa8-f8a0-4117-8855-9564dfa49565,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+453f6168-9a2c-421f-9f1e-a487dc802199,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+e2171f2f-8eb1-40f6-b889-f287964fa61d,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+50c84605-50dd-4fd2-a91d-f66849f3ce09,,ucsb_undergraduate_event,veg,veg,,written,Other,,,,female,18-24,undergraduate_student,,,
+7309654c-c794-4d1e-91ff-fe52cf8919ca,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+97207d91-4958-4931-96b9-488a8dcb3f25,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+dfb0d276-0826-4aaf-a927-aa866443d5fe,,ucsb_undergraduate_event,meat,veg,,pescatarian,Pescatarian,,,,female,18-24,undergraduate_student,,,
+91982be6-2293-4c48-b31b-a5662a42e8c0,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+65c184f2-14c3-4c9e-aa32-baeaffbe85b7,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+aa9799f5-3236-4634-985d-c7e2a3a890c8,,ucsb_undergraduate_event,veg,veg,,written,Other,,,,female,18-24,undergraduate_student,,,
+7a07ea5a-fc30-491d-8f61-c64c594e8ed6,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+829c8b53-f29a-477d-898f-1f99080aa1d2,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+279086c1-6239-46ae-9f33-d0823761acc6,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+3bcab7d9-2990-48c8-928a-d3c8fdbfb4b9,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+94520dc2-f6c3-4fc9-a14e-fec8106bbf74,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+339f93ec-f077-4a35-8ea5-e3e5173f6921,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+4598f642-6bec-499d-9547-324e6697fcb6,,ucsb_undergraduate_event,meat,veg,,written,Other,,,,female,18-24,undergraduate_student,,,
+cec4edf9-77c1-466e-a198-b8aaf5b52111,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+fd4580ff-4f6b-4553-99d0-e0025dbda85e,,ucsb_undergraduate_event,meat,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+f79f6639-e324-49cd-8ad7-947981d8ac24,,ucsb_undergraduate_event,veg,veg,,pescatarian,Pescatarian,,,,female,18-24,undergraduate_student,,,
+9d6d3af4-6ca9-4f7f-90d5-345f6cb54576,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+cd835717-e22a-494e-80c3-92a3bd8a9c7d,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+eb89e2c8-9b81-485b-9b0b-410e5f815fc8,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+1460ea6a-2ee2-4c80-a9c8-d70ff0839cd0,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+aa5e2a6d-41fb-432f-8966-bcb60a519563,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+f64210a4-6914-4d13-b916-4f0270b214e8,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+338910e3-3767-4bcf-b370-e0e891e56174,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+0a9c407c-61a6-4a70-8ed1-8226488a36e8,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+ccffd9cc-7da1-4588-bd97-27b6aa4eecda,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+a8a04b38-7ea3-4bde-9446-914918f0ce12,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+18f858ed-1901-4d92-9a95-ebcff6ca67d4,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+d6e1a6ff-65fb-435a-8cd4-5333de7931d1,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+01206cc8-9bee-405c-bc6d-67336487ebd8,,ucsb_undergraduate_event,veg,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
+8bc993f7-a0aa-47fb-8d2e-5354efdfad06,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+bc0487f2-16a9-464e-a99b-a217ec1f7b8e,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+a31b8a1e-39fd-4977-96e7-f34a70e20d48,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+41ee47fd-9663-46a4-876e-658dfd8481eb,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+2de451af-2ce9-4e23-8167-e9fb9b28cdaa,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+17f6a333-1df9-4c0c-a23b-e0ffe7e34560,,ucsb_undergraduate_event,veg,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
+406e2995-4b7f-4cea-8e43-fb421c9dc3d8,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+6012e12a-c54a-4611-8060-0f1bcc74d5bb,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+2aeb8b96-ce69-4af7-ad54-9a0714db27ee,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+4b131a1a-e012-470b-aa59-cb469251123d,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+ae08df17-03a0-49a7-9cbc-14326a091251,,ucsb_undergraduate_event,meat,veg,,written,Other,,,,female,18-24,undergraduate_student,,,
+efc07d40-3a45-4c35-be93-54548da35af8,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+c7b363ce-c67c-4ce9-adce-2fca6ace5dee,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+f5b38efb-ce04-4584-8f61-a2fae7a07f3b,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+67517be9-0d87-4a1f-9ed3-893718b5bc06,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+c0b0adb4-5945-4e2d-9c8c-a75d9f08ece2,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+bd3cc64c-21d8-41c8-917f-ff3f2d4c4918,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+edc1ffb5-9bb9-41ec-9e47-5cc0c7ffb3ef,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+75f51085-87f4-4be5-87eb-d91a552fe9d6,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+e1181084-94e2-4af3-addf-a3c0819875e1,,ucsb_undergraduate_event,veg,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
+0f33883b-6075-47f2-93d5-c4fd7db82bde,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+4bad7bba-d9c6-422c-8636-1e2ee9c5720e,,ucsb_undergraduate_event,meat,veg,,vegetarian,Vegetarian,,,,female,18-24,undergraduate_student,,,
+b04cf818-1c28-4099-a5de-c82afdce40df,,ucsb_undergraduate_event,veg,veg,,,,,,,female,18-24,undergraduate_student,,,
+2defeef6-9b08-4f0f-a057-0e0d35421ea6,,ucsb_undergraduate_event,meat,veg,,pescatarian,Pescatarian,,,,female,18-24,undergraduate_student,,,
+51752dbc-7ef6-46c0-b7fe-3f130f857880,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+d2677876-3698-48a8-8c35-e91f6d537646,,ucsb_undergraduate_event,meat,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+3030d418-867f-49e9-b6fa-7e6fe90444a0,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+b62905d2-f906-4b25-bbcb-79e552e8abbb,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+359b9d88-ea94-46d3-9c16-ab0e864a7266,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+4b914ecb-3823-4ddf-a6ec-58120ecc7f3a,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+c50cd95d-424a-4808-9cea-2b88a9738218,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+09349561-00c0-4275-b249-b67fca147421,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+e7d8de97-110f-4b3c-8dde-65c3fb28b2d5,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+596ebe58-9728-4173-b31d-33bdbdd074b5,,ucsb_undergraduate_event,meat,meat,,written,Other,,,,female,18-24,undergraduate_student,,,
+3c220581-dfd2-4e3b-a230-86a7f1166345,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+2506487d-d016-4a07-8e4e-1eea3515814f,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+31d99d28-965f-4ce1-b700-bcc2a761e679,,ucsb_undergraduate_event,veg,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+eae670a7-7913-4019-aaf9-51ddf0238a51,,ucsb_undergraduate_event,meat,veg,,vegan,Vegan,,,,female,18-24,undergraduate_student,,,
+7fd72b01-95a8-4c19-80ee-a285a5c40971,,ucsb_undergraduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+90a3375c-ad3f-4ef2-a178-60b6b8fb3bb0,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+716bcae9-edc2-443b-8e3f-b5cd1c2689b8,,ucsb_undergraduate_event,meat,meat,,written,Other,,,,female,18-24,undergraduate_student,,,
+8af34711-a159-4a9c-b1a0-41f9d41d3a87,,ucsb_undergraduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,undergraduate_student,,,
+2f87ef95-a0f2-4409-93cf-44f4623a26a1,,ucsb_undergraduate_event,meat,meat,,,,,,,female,18-24,undergraduate_student,,,
+1f7fff8e-b370-4cff-92f1-d7adc89a45bb,,ucsb_graduate_event,veg,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+bddb3049-fa52-49f7-92c7-d1ecbdeb7e58,,ucsb_graduate_event,meat,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+3f98f980-38c0-4d54-86a1-882b0b762491,,ucsb_graduate_event,veg,,,omnivore,None of the above,,,,female,,graduate_student,,,
+369c7dd4-9ae9-405d-ad5a-0574e58343f4,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+1859bb09-a15d-4697-b973-152551e3c488,,ucsb_graduate_event,meat,veg,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
+2bd76fec-4000-4692-914a-92747213f965,,ucsb_graduate_event,meat,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+74d2f2df-6aa9-4b02-871f-6d944469edf0,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+a3c0ea67-a933-4702-912b-b01df97389e8,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+58de4703-5add-4025-93b2-dfbf29f98963,,ucsb_graduate_event,meat,veg,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
+cc1c1e41-d988-4586-96f3-defe6e5349b0,,ucsb_graduate_event,meat,meat,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
+74351089-ea7f-4cde-bbd1-e258c044428f,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
+7886e9cc-d8b5-4d83-b93d-7546195e98db,,ucsb_graduate_event,meat,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+2606e9a6-3507-45a6-9190-8b85faa6439c,,ucsb_graduate_event,veg,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+42482b8d-b37b-43e7-8222-27c3a3b747d2,,ucsb_graduate_event,meat,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+dffad540-b2ad-4bc7-a2b0-a05b889ce1c5,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
+4b338e0b-7507-400d-ac7a-b66a0d5eb165,,ucsb_graduate_event,veg,veg,,omnivore,None of the above,,,,female,18-24,graduate_student,,,
+f142379f-4389-4f4c-8d29-fe9a6a435614,,ucsb_graduate_event,meat,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+ac4bdc4b-a15a-4ba4-a1ab-e7a7ef0b98a0,,ucsb_graduate_event,meat,veg,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+3123451f-d1a7-40af-9b34-bb9fda14344f,,ucsb_graduate_event,veg,meat,,omnivore,None of the above,,,,female,25-34,graduate_student,,,
+f6606487-212b-43c3-97d5-75a3ec7f7b75,DVB1,uta,veg,veg,veg,omnivore,Flexitarian,,,,,,,disagree,,Other
+995f76a1-d0f8-411a-ae38-e42a6a78af32,DVB2,uta,veg,veg,veg,omnivore,Flexitarian,asian,Asian,not hispanic or latinx,male,,,disagree,,Environmental Impact
+b7b90698-0403-45a6-b32f-48f788ebe888,DVB3,uta,meat,meat,meat,omnivore,Omnivorous,white,White,hispanic or latinx,female,,,agree,,Eating plant-based meals is not important to me.
+4c0f64ad-fb88-4d7b-abeb-a49098acbca6,DVB4,uta,veg,veg,meat,,,,,,,,,very_strongly_agree,,Environmental Impact
+b6af30d3-35de-47f3-8a21-6b72d5b27a85,DVB5,uta,veg,veg,veg,omnivore,Omnivorous,asian,Asian,not hispanic or latinx,female,,,disagree,,Environmental Impact
+8d6046b0-b2b3-4b09-b707-96f18e480ec7,DVB6,uta,meat,meat,meat,omnivore,Omnivorous,white,White,not hispanic or latinx,female,,,agree,,Eating plant-based meals is not important to me.
+0aa6f90c-4a9c-44b2-bb85-6d8e4ffddde2,DVB7,uta,veg,veg,veg,,Lacto-ovo-vegetarian,,,,,,,very_strongly_agree,,Other
+81aa1370-50b6-41a5-90f2-5c0ca67f91f3,DVB8,uta,veg,veg,veg,vegan,Vegan,white,White,not hispanic or latinx,female,,,strongly_agree,,Environmental Impact
+e1406e79-9b16-483b-8a2e-4a2a27b2ca70,DVB9,uta,meat,meat,meat,omnivore,Omnivorous,,"White,Asian",not hispanic or latinx,female,,,strongly_agree,,Health
+c6d8c8bb-2c8a-410d-93c4-19cd184827fb,DVB10,uta,meat,veg,veg,,Lacto-ovo-vegetarian,asian,Asian,not hispanic or latinx,female,,,strongly_agree,,Health
+d9aa726a-ef56-4f9e-92c4-ca782199f9b8,DVB11,uta,veg,meat,meat,omnivore,Omnivorous,asian,Asian,not hispanic or latinx,male,,,very_strongly_agree,,Delicious
+0d1fb100-5031-4def-af26-c9e4d42770b0,DVB12,uta,veg,meat,meat,omnivore,Omnivorous,asian,Asian,not hispanic or latinx,female,,,neutral,,Eating plant-based meals is not important to me.
+dd2466f0-53d4-4425-835c-a0ed0badc35c,DVB13,uta,meat,veg,veg,vegan,Vegan,white,White,not hispanic or latinx,male,,,strongly_agree,,Environmental Impact
+501d9f97-4db9-47fe-9084-427616d689ba,DVB14,uta,veg,meat,meat,omnivore,Omnivorous,asian,Asian,not hispanic or latinx,female,,,strongly_agree,,Eating plant-based meals is not important to me.
+3f3cbc26-513b-413b-adc1-952b2d265b44,DVB15,uta,meat,meat,meat,,Prefer not to say,,,,,,,very_strongly_agree,,Environmental Impact
+a61f93a3-363a-4af8-a21e-8906624085e5,DVB16,uta,meat,meat,meat,,,,,,,,,very_strongly_agree,,Health
+0ac3f233-7ac8-4df6-8630-7f486305f5cb,DVB17,uta,veg,veg,veg,,Pollotarian,black or african american,Black or African American,not hispanic or latinx,female,,,very_strongly_agree,,Health
+cd2957ad-b969-42a2-a946-5012135521c1,DVB18,uta,meat,veg,veg,,Lacto-vegetarian,asian,Asian,not hispanic or latinx,female,,,disagree,,Other
