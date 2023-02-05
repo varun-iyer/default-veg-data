@@ -162,6 +162,7 @@ class Ethnicity(str, Enum):
 
 class Role(str, Enum):
     STAFF = "staff"
+    FACULTY = "faculty"
     GRAD = "graduate_student"
     UG = "undergraduate_student"
 
