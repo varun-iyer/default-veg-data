@@ -12,6 +12,7 @@ UCLA_PATH = f"{DATA_ROOT}/ucla/combined_data.csv"
 UTA_PATH = f"{DATA_ROOT}/uta/Pre v Post Responses.csv"
 UCSB_UG_EVENT_PATH = f"{DATA_ROOT}/ucsb/undergraduate.csv"
 UCSB_GRAD_EVENT_PATH = f"{DATA_ROOT}/ucsb/graduate.csv"
+COMBINED_DATA_PATH = f"{DATA_ROOT}/combined_data.csv"
 
 
 class ResponseSource(str, Enum):
@@ -270,7 +271,8 @@ class SurveyResponse:
             source_id=asu_dict["ID"],
             source=source,
             default_meal=Meal.parse(asu_dict["Group"]),
-            selected_meal=Meal.parse(asu_dict["DefaultVeg"]) or Meal.parse(asu_dict["DefaultMeat"]),
+            selected_meal=Meal.parse(asu_dict["DefaultVeg"])
+            or Meal.parse(asu_dict["DefaultMeat"]),
             eaten_meal=Meal.parse(asu_dict["MealServed"]),
             diet=Diet.parse(asu_dict["Default_Selection"]),
             diet_text=asu_dict["Diet"],
@@ -295,7 +297,8 @@ class SurveyResponse:
             source_id=asu_dict.pop("ID"),
             source=source,
             default_meal=Meal.parse(asu_dict.pop("Group")),
-            selected_meal=Meal.parse(asu_dict.pop("DefaultVeg")) or Meal.parse(asu_dict.pop("DefaultMeat")),
+            selected_meal=Meal.parse(asu_dict.pop("DefaultVeg"))
+            or Meal.parse(asu_dict.pop("DefaultMeat")),
             eaten_meal=Meal.parse(asu_dict.pop("MealServed")),
             diet=Diet.parse(asu_dict["Diet"]),
             diet_text=asu_dict.pop("Diet"),
@@ -412,15 +415,22 @@ class SurveyResponse:
         return sum([SurveyResponse.load(source) for source in ResponseSource], [])
 
     @staticmethod
-    def write_all(path: str) -> list["SurveyResponse"]:
+    def write_all(path: str = COMBINED_DATA_PATH) -> list["SurveyResponse"]:
         with open(path, "w") as outfile:
             writer = csv.DictWriter(
-                outfile, fieldnames=SurveyResponse.ordered_field_names(), extrasaction="ignore",
+                outfile,
+                fieldnames=SurveyResponse.ordered_field_names(),
+                extrasaction="ignore",
             )
             writer.writeheader()
             for response in SurveyResponse.load_all():
                 writer.writerow(response.dict())
 
+
 if __name__ == "__main__":
     import sys
-    SurveyResponse.write_all(sys.argv[1])
+
+    try:
+        SurveyResponse.write_all(sys.argv[1])
+    except IndexError:
+        SurveyResponse.write_all()
