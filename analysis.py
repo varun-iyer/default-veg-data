@@ -34,7 +34,7 @@ class Meal(str, Enum):
     @staticmethod
     def parse(text: str) -> Union["Meal", None]:
         text = text.lower()
-        if "meat" in text:
+        if re.search(r"\bmeat\b", text):
             return Meal.MEAT
         if "plant" in text or "veg" in text:
             return Meal.VEG
@@ -59,6 +59,8 @@ class Diet(str, Enum):
             "pescatarian": Diet.PESCATARIAN,
             "na": Diet.OMNIVORE,
             "none": Diet.OMNIVORE,
+            "omnivorous": Diet.OMNIVORE,
+            "flexitarian": Diet.OMNIVORE,
         }
         if text in diet_map:
             return diet_map[text]
@@ -128,9 +130,9 @@ class Ethnicity(str, Enum):
     @staticmethod
     def parse(text: str) -> Union["Ethnicity", None]:
         text = text.lower()
-        if "non" in text or "not" in text:
+        if "non" in text or "not" in text or "no" in text:
             return Ethnicity.NON_LATIN
-        if "latin" in text:
+        if "latin" in text or "yes" in text:
             return Ethnicity.LATIN
         return None
 
@@ -150,20 +152,29 @@ class Role(str, Enum):
 
 
 class Likert(int, Enum):
+    VERY_STRONGLY_DISAGREE = 0
     STRONGLY_DISAGREE = 1
     DISAGREE = 2
     NEUTRAL = 3
     AGREE = 4
     STRONGLY_AGREE = 5
+    VERY_STRONGLY_AGREE = 6
 
     @staticmethod
     def parse(text: str) -> Union['Likert', None]:
         satisfaction_map = {
             "very unsatisfied": Likert.STRONGLY_DISAGREE,
+            "extremely dissatisfied": Likert.VERY_STRONGLY_DISAGREE,
             "unsatisfied": Likert.DISAGREE,
+            "moderately dissatisfied": Likert.STRONGLY_DISAGREE,
+            "slightly dissatisfied": Likert.DISAGREE,
             "neither satisfied nor unsatisfied": Likert.NEUTRAL,
+            "neither satisfied nor dissatisfied": Likert.NEUTRAL,
             "satisfied": Likert.AGREE,
+            "moderately satisfied": Likert.STRONGLY_AGREE,
+            "slightly satisfied": Likert.AGREE,
             "very satisfied": Likert.STRONGLY_AGREE,
+            "extremely satisfied": Likert.VERY_STRONGLY_AGREE,
             "": None,
             "not important": Likert.STRONGLY_DISAGREE,
             "not too important": Likert.DISAGREE,
@@ -180,7 +191,7 @@ class Likert(int, Enum):
 @dataclass
 class SurveyResponse:
     uuid: str
-    source_id: int | None
+    source_id: int | str | None
     source: ResponseSource
     default_meal: Meal
     selected_meal: Meal
@@ -249,12 +260,12 @@ class SurveyResponse:
         )
 
     @staticmethod
-    def init_ucla(ucla_dict: dict, source="") -> "SurveyResponse":
+    def init_ucla(ucla_dict: dict, source=ResponseSource.UCLA) -> "SurveyResponse":
         selected = Meal.parse(ucla_dict["mealSelection"])
         return SurveyResponse(
             uuid=uuid4(),
             source_id=None,
-            source=ResponseSource.UCLA,
+            source=source,
             default_meal=selected if "Stay" in ucla_dict["mealSelection"] else Meal.other(selected),
             selected_meal=selected,
             eaten_meal=Meal.parse(ucla_dict["mealEaten"]),
@@ -270,6 +281,30 @@ class SurveyResponse:
             veg_is_important=None,
             importance_reason=ucla_dict["rationale"],
             other_fields={"importance": ucla_dict["importance"]},
+        )
+
+    @staticmethod
+    def init_uta(uta_dict: dict, source=ResponseSource.UTA) -> "SurveyResponse":
+        default = Meal.MEAT if uta_dict["Animal"] else Meal.VEG
+        return SurveyResponse(
+            uuid=uuid4(),
+            source_id=uta_dict.pop("ID"),
+            source=ResponseSource.UCLA,
+            default_meal=default,
+            selected_meal=Meal.parse(uta_dict.pop("Animal")) or Meal.parse(uta_dict.pop("Plant")),
+            eaten_meal=Meal.parse(uta_dict.pop("Meal Provided")),
+            diet=Diet.parse(uta_dict["Diet pattern"]),
+            diet_text=uta_dict.pop("Diet pattern"),
+            race=Race.parse(uta_dict["Ethnicity"]),
+            race_text=uta_dict.pop("Ethnicity"),
+            ethnicity=Ethnicity.parse(uta_dict.pop("Hispanic")),
+            gender=Gender.parse(uta_dict.pop("Gender")),
+            age=None,
+            role=None,
+            is_satisfied=Likert.parse(uta_dict.pop("Meal Satisfaction")),
+            veg_is_important=None,
+            importance_reason=uta_dict.pop("Plant-based Importance"),
+            other_fields=uta_dict,
         )
 
     @staticmethod
