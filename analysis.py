@@ -24,14 +24,16 @@ class ResponseSource(str, Enum):
 
     @staticmethod
     def path(source: "ResponseSource"):
-        return ({
-            ResponseSource.ASU_CONVOCATION: ASU_CONVOCATION_PATH,
-            ResponseSource.ASU_RESEARCH_DAY: ASU_RESEARCH_DAY_PATH,
-            ResponseSource.UCLA: UCLA_PATH,
-            ResponseSource.UCSB_UG_EVENT: UCSB_UG_EVENT_PATH,
-            ResponseSource.UCSB_GRAD_EVENT: UCSB_GRAD_EVENT_PATH,
-            ResponseSource.UTA: UTA_PATH,
-        })[source]
+        return (
+            {
+                ResponseSource.ASU_CONVOCATION: ASU_CONVOCATION_PATH,
+                ResponseSource.ASU_RESEARCH_DAY: ASU_RESEARCH_DAY_PATH,
+                ResponseSource.UCLA: UCLA_PATH,
+                ResponseSource.UCSB_UG_EVENT: UCSB_UG_EVENT_PATH,
+                ResponseSource.UCSB_GRAD_EVENT: UCSB_GRAD_EVENT_PATH,
+                ResponseSource.UTA: UTA_PATH,
+            }
+        )[source]
 
 
 class Meal(str, Enum):
@@ -48,6 +50,8 @@ class Meal(str, Enum):
     def parse(text: str) -> Union["Meal", None]:
         text = text.lower()
         if re.search(r"\bmeat\b", text):
+            return Meal.MEAT
+        if re.search(r"\bdefaultmeat\b", text):
             return Meal.MEAT
         if "plant" in text or "veg" in text:
             return Meal.VEG
@@ -81,6 +85,7 @@ class Diet(str, Enum):
 
 
 class AgeRange(str, Enum):
+    AGE_U18 = "Under 18"
     AGE_18_24 = "18-24"
     AGE_25_34 = "25-34"
     AGE_35_44 = "35-44"
@@ -90,6 +95,8 @@ class AgeRange(str, Enum):
 
     @staticmethod
     def parse(text: str) -> Union["AgeRange", None]:
+        if "under 18" in text.lower():
+            return AgeRange.AGE_U18
         ages = re.search("\d\d-\d\d", text)
         try:
             return AgeRange(ages.group())
@@ -126,11 +133,13 @@ class Race(str, Enum):
         except ValueError:
             pass
         try:
-            return ({
-                "black of african American": Race.BLACK_AA,
-                "other": Race.WRITTEN,
-                "mixed (mestiza)": Race.MULTIRACIAL,
-            })[text.lower()]
+            return (
+                {
+                    "black of african American": Race.BLACK_AA,
+                    "other": Race.WRITTEN,
+                    "mixed (mestiza)": Race.MULTIRACIAL,
+                }
+            )[text.lower()]
         except KeyError:
             pass
         return None
@@ -173,8 +182,11 @@ class Likert(int, Enum):
     STRONGLY_AGREE = 5
     VERY_STRONGLY_AGREE = 6
 
+    def __str__(self):
+        return self.name.lower()
+
     @staticmethod
-    def parse(text: str) -> Union['Likert', None]:
+    def parse(text: str) -> Union["Likert", None]:
         satisfaction_map = {
             "very unsatisfied": Likert.STRONGLY_DISAGREE,
             "extremely dissatisfied": Likert.VERY_STRONGLY_DISAGREE,
@@ -250,13 +262,15 @@ class SurveyResponse:
         )
 
     @staticmethod
-    def init_asu(asu_dict: dict, source: ResponseSource) -> "SurveyResponse":
+    def init_asu_convocation(
+        asu_dict: dict, source: ResponseSource
+    ) -> "SurveyResponse":
         return SurveyResponse(
             uuid=uuid4(),
             source_id=asu_dict["ID"],
             source=source,
             default_meal=Meal.parse(asu_dict["Group"]),
-            selected_meal=Meal.parse(asu_dict["DefaultVeg"]),
+            selected_meal=Meal.parse(asu_dict["DefaultVeg"]) or Meal.parse(asu_dict["DefaultMeat"]),
             eaten_meal=Meal.parse(asu_dict["MealServed"]),
             diet=Diet.parse(asu_dict["Default_Selection"]),
             diet_text=asu_dict["Diet"],
@@ -273,13 +287,40 @@ class SurveyResponse:
         )
 
     @staticmethod
+    def init_asu_research_day(
+        asu_dict: dict, source: ResponseSource
+    ) -> "SurveyResponse":
+        return SurveyResponse(
+            uuid=uuid4(),
+            source_id=asu_dict.pop("ID"),
+            source=source,
+            default_meal=Meal.parse(asu_dict.pop("Group")),
+            selected_meal=Meal.parse(asu_dict.pop("DefaultVeg")) or Meal.parse(asu_dict.pop("DefaultMeat")),
+            eaten_meal=Meal.parse(asu_dict.pop("MealServed")),
+            diet=Diet.parse(asu_dict["Diet"]),
+            diet_text=asu_dict.pop("Diet"),
+            race=Race.parse(asu_dict.pop("Race")),
+            race_text=asu_dict.pop("Race_6_TEXT"),
+            ethnicity=Ethnicity.parse(asu_dict.pop("Hispanic")),
+            gender=None,
+            age=AgeRange.parse(asu_dict.pop("AgeGroup")),
+            role=Role.parse(asu_dict.pop("Employment")),
+            is_satisfied=AgeRange.parse(asu_dict.pop("Satisfaction")),
+            veg_is_important=Likert.parse(asu_dict.pop("Plant_Importance")),
+            importance_reason=Likert.parse(asu_dict.pop("Plant_Importance_Why")),
+            other_fields=asu_dict,
+        )
+
+    @staticmethod
     def init_ucla(ucla_dict: dict, source=ResponseSource.UCLA) -> "SurveyResponse":
         selected = Meal.parse(ucla_dict["mealSelection"])
         return SurveyResponse(
             uuid=uuid4(),
             source_id=None,
             source=source,
-            default_meal=selected if "Stay" in ucla_dict["mealSelection"] else Meal.other(selected),
+            default_meal=selected
+            if "Stay" in ucla_dict["mealSelection"]
+            else Meal.other(selected),
             selected_meal=selected,
             eaten_meal=Meal.parse(ucla_dict["mealEaten"]),
             diet=Diet.parse(ucla_dict["dietaryInfo"]),
@@ -304,7 +345,8 @@ class SurveyResponse:
             source_id=uta_dict.pop("ID"),
             source=source,
             default_meal=default,
-            selected_meal=Meal.parse(uta_dict.pop("Animal")) or Meal.parse(uta_dict.pop("Plant")),
+            selected_meal=Meal.parse(uta_dict.pop("Animal"))
+            or Meal.parse(uta_dict.pop("Plant")),
             eaten_meal=Meal.parse(uta_dict.pop("Meal Provided")),
             diet=Diet.parse(uta_dict["Diet pattern"]),
             diet_text=uta_dict.pop("Diet pattern"),
@@ -328,7 +370,8 @@ class SurveyResponse:
             source_id=None,
             source=source,
             default_meal=default,
-            selected_meal=Meal.parse(ucsb_dict.pop("plant_default")) or Meal.parse(ucsb_dict.pop("meat_default")),
+            selected_meal=Meal.parse(ucsb_dict.pop("plant_default"))
+            or Meal.parse(ucsb_dict.pop("meat_default")),
             eaten_meal=None,
             diet=Diet.parse(ucsb_dict["diet"]),
             diet_text=ucsb_dict.pop("diet"),
@@ -346,14 +389,16 @@ class SurveyResponse:
 
     @staticmethod
     def init_method(source: ResponseSource):
-        return ({
-            ResponseSource.ASU_CONVOCATION: SurveyResponse.init_asu,
-            ResponseSource.ASU_RESEARCH_DAY: SurveyResponse.init_asu,
-            ResponseSource.UCLA: SurveyResponse.init_ucla,
-            ResponseSource.UCSB_UG_EVENT: SurveyResponse.init_ucsb,
-            ResponseSource.UCSB_GRAD_EVENT: SurveyResponse.init_ucsb,
-            ResponseSource.UTA: SurveyResponse.init_uta,
-        })[source]
+        return (
+            {
+                ResponseSource.ASU_CONVOCATION: SurveyResponse.init_asu_convocation,
+                ResponseSource.ASU_RESEARCH_DAY: SurveyResponse.init_asu_research_day,
+                ResponseSource.UCLA: SurveyResponse.init_ucla,
+                ResponseSource.UCSB_UG_EVENT: SurveyResponse.init_ucsb,
+                ResponseSource.UCSB_GRAD_EVENT: SurveyResponse.init_ucsb,
+                ResponseSource.UTA: SurveyResponse.init_uta,
+            }
+        )[source]
 
     @staticmethod
     def load(source: ResponseSource) -> list["SurveyResponse"]:
@@ -361,3 +406,17 @@ class SurveyResponse:
         path_to_csv = ResponseSource.path(source)
         reader = csv.DictReader(open(path_to_csv))
         return [function(row, source) for row in reader]
+
+    @staticmethod
+    def load_all() -> list["SurveyResponse"]:
+        return sum([SurveyResponse.load(source) for source in ResponseSource], [])
+
+    @staticmethod
+    def write_all(path: str) -> list["SurveyResponse"]:
+        with open(path, "w") as outfile:
+            writer = csv.DictWriter(
+                outfile, fieldnames=SurveyResponse.ordered_field_names(), extrasaction="ignore",
+            )
+            writer.writeheader()
+            for response in SurveyResponse.load_all():
+                writer.writerow(response.dict())
