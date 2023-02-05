@@ -24,17 +24,14 @@ class ResponseSource(str, Enum):
 
     @staticmethod
     def path(source: "ResponseSource"):
-        try:
-            return ({
-                ResponseSource.ASU_CONVOCATION: ASU_CONVOCATION_PATH,
-                ResponseSource.ASU_RESEARCH_DAY: ASU_RESEARCH_DAY_PATH,
-                ResponseSource.UCLA: UCLA_PATH,
-                ResponseSource.UCSB_UG_EVENT: UCSB_UG_EVENT_PATH,
-                ResponseSource.UCSB_UG_EVENT: UCSB_GRAD_EVENT_PATH,
-                ResponseSource.UTA: UTA_PATH,
-            })[source]
-        except KeyError:
-            return None
+        return ({
+            ResponseSource.ASU_CONVOCATION: ASU_CONVOCATION_PATH,
+            ResponseSource.ASU_RESEARCH_DAY: ASU_RESEARCH_DAY_PATH,
+            ResponseSource.UCLA: UCLA_PATH,
+            ResponseSource.UCSB_UG_EVENT: UCSB_UG_EVENT_PATH,
+            ResponseSource.UCSB_GRAD_EVENT: UCSB_GRAD_EVENT_PATH,
+            ResponseSource.UTA: UTA_PATH,
+        })[source]
 
 
 class Meal(str, Enum):
@@ -325,7 +322,27 @@ class SurveyResponse:
 
     @staticmethod
     def init_ucsb(ucsb_dict: dict, source: ResponseSource) -> "SurveyResponse":
-        raise NotImplementedError
+        default = Meal.MEAT if ucsb_dict["meat_default"] else Meal.VEG
+        return SurveyResponse(
+            uuid=uuid4(),
+            source_id=None,
+            source=source,
+            default_meal=default,
+            selected_meal=Meal.parse(ucsb_dict.pop("plant_default")) or Meal.parse(ucsb_dict.pop("meat_default")),
+            eaten_meal=None,
+            diet=Diet.parse(ucsb_dict["diet"]),
+            diet_text=ucsb_dict.pop("diet"),
+            race=None,
+            race_text=None,
+            ethnicity=None,
+            gender=Gender.FEMALE,
+            age=AgeRange.parse(ucsb_dict.pop("age")),
+            role=Role.GRAD if source == ResponseSource.UCSB_GRAD_EVENT else Role.UG,
+            is_satisfied=None,
+            veg_is_important=None,
+            importance_reason=None,
+            other_fields=None,
+        )
 
     @staticmethod
     def init_method(source: ResponseSource):
@@ -334,7 +351,7 @@ class SurveyResponse:
             ResponseSource.ASU_RESEARCH_DAY: SurveyResponse.init_asu,
             ResponseSource.UCLA: SurveyResponse.init_ucla,
             ResponseSource.UCSB_UG_EVENT: SurveyResponse.init_ucsb,
-            ResponseSource.UCSB_UG_EVENT: SurveyResponse.init_ucsb,
+            ResponseSource.UCSB_GRAD_EVENT: SurveyResponse.init_ucsb,
             ResponseSource.UTA: SurveyResponse.init_uta,
         })[source]
 
