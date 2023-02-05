@@ -5,11 +5,13 @@ from uuid import uuid4
 from enum import Enum, auto
 import re
 
-
 DATA_ROOT = "./"
 ASU_CONVOCATION_PATH = f"{DATA_ROOT}/asu/convocation_defaultveg_deidentified.csv"
 ASU_RESEARCH_DAY_PATH = f"{DATA_ROOT}/asu/researchday_defaultveg_deidentified.csv"
 UCLA_PATH = f"{DATA_ROOT}/ucla/combined_data.csv"
+UTA_PATH = f"{DATA_ROOT}/uta/Pre v Post Responses.csv"
+UCSB_UG_EVENT_PATH = f"{DATA_ROOT}/ucsb/undergraduate.csv"
+UCSB_GRAD_EVENT_PATH = f"{DATA_ROOT}/ucsb/graduate.csv"
 
 
 class ResponseSource(str, Enum):
@@ -19,6 +21,20 @@ class ResponseSource(str, Enum):
     UCSB_UG_EVENT = "ucsb_undergraduate_event"
     UCSB_GRAD_EVENT = "ucsb_graduate_event"
     UTA = "uta"
+
+    @staticmethod
+    def path(source: "ResponseSource"):
+        try:
+            return ({
+                ResponseSource.ASU_CONVOCATION: ASU_CONVOCATION_PATH,
+                ResponseSource.ASU_RESEARCH_DAY: ASU_RESEARCH_DAY_PATH,
+                ResponseSource.UCLA: UCLA_PATH,
+                ResponseSource.UCSB_UG_EVENT: UCSB_UG_EVENT_PATH,
+                ResponseSource.UCSB_UG_EVENT: UCSB_GRAD_EVENT_PATH,
+                ResponseSource.UTA: UTA_PATH,
+            })[source]
+        except KeyError:
+            return None
 
 
 class Meal(str, Enum):
@@ -289,7 +305,7 @@ class SurveyResponse:
         return SurveyResponse(
             uuid=uuid4(),
             source_id=uta_dict.pop("ID"),
-            source=ResponseSource.UCLA,
+            source=source,
             default_meal=default,
             selected_meal=Meal.parse(uta_dict.pop("Animal")) or Meal.parse(uta_dict.pop("Plant")),
             eaten_meal=Meal.parse(uta_dict.pop("Meal Provided")),
@@ -308,6 +324,23 @@ class SurveyResponse:
         )
 
     @staticmethod
-    def load(function, path_to_csv: str, source: ResponseSource) -> list["SurveyResponse"]:
+    def init_ucsb(ucsb_dict: dict, source: ResponseSource) -> "SurveyResponse":
+        raise NotImplementedError
+
+    @staticmethod
+    def init_method(source: ResponseSource):
+        return ({
+            ResponseSource.ASU_CONVOCATION: SurveyResponse.init_asu,
+            ResponseSource.ASU_RESEARCH_DAY: SurveyResponse.init_asu,
+            ResponseSource.UCLA: SurveyResponse.init_ucla,
+            ResponseSource.UCSB_UG_EVENT: SurveyResponse.init_ucsb,
+            ResponseSource.UCSB_UG_EVENT: SurveyResponse.init_ucsb,
+            ResponseSource.UTA: SurveyResponse.init_uta,
+        })[source]
+
+    @staticmethod
+    def load(source: ResponseSource) -> list["SurveyResponse"]:
+        function = SurveyResponse.init_method(source)
+        path_to_csv = ResponseSource.path(source)
         reader = csv.DictReader(open(path_to_csv))
         return [function(row, source) for row in reader]
