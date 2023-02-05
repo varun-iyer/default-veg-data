@@ -57,7 +57,7 @@ ID,Group,DefaultVeg,DefaultMeat,Default_Selection,Diet,Diet_4_TEXT,AgeGroup,Race
 56,DefaultMeat,,Stay with the meal with meat,DefaultStay,None of the above,,25-34 years old,White,,Non-Hispanic/Non-Latinx,Graduate Student,,,,,,
 57,DefaultVeg,Stay with the plant-based meal,,DefaultStay,None of the above,,18-24 years old,White,,Hispanic/Latinx,Staff,,Plant-based meal,Unsatisfied,Not too important,,I like to eat a varied diet and enjoy eating vegetarian food items when available and appealing.
 58,DefaultVeg,Switch to a meal with meat,,DefaultSwitch,None of the above,,55-64 years old,White,,Non-Hispanic/Non-Latinx,Faculty,,,,,,
-59,DefaultVeg,Switch to a meal with meat,,DefaultSwitch,None of the above,,25-34 years old,Other,"It‚Äôs lunch, why do you need my race?",,Graduate Student,,Meal with meat,Unsatisfied,Not too important,,
+59,DefaultVeg,Switch to a meal with meat,,DefaultSwitch,None of the above,,25-34 years old,Other,"",,Graduate Student,,Meal with meat,Unsatisfied,Not too important,,
 60,DefaultVeg,Switch to a meal with meat,,DefaultSwitch,None of the above,,25-34 years old,White,,Hispanic/Latinx,Staff,,,,,,
 61,DefaultVeg,Switch to a meal with meat,,DefaultSwitch,None of the above,,35-44 years old,Prefer not to say,,Prefer not to say,Staff,,,,,,
 62,DefaultVeg,Stay with the plant-based meal,,DefaultStay,None of the above,,45-54 years old,Prefer not to say,,Prefer not to say,Faculty,,Plant-based meal,Unsatisfied,Important,Health,
