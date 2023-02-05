@@ -420,3 +420,7 @@ class SurveyResponse:
             writer.writeheader()
             for response in SurveyResponse.load_all():
                 writer.writerow(response.dict())
+
+if __name__ == "__main__":
+    import sys
+    SurveyResponse.write_all(sys.argv[1])
