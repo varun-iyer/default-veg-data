@@ -1,4 +1,4 @@
-We will be serving a plant-based meal (no animal products) for dinner. Please indicate below if you would prefer a meal with meat.,We will be serving a meal that contains meat for dinner. Please indicate below if you would prefer a plant-based meal.,"Are you vegan, vegetarian, or pescetarian? - Selected Choice",What is your age group?,Default Event
+plant_default,meat_default,diet,age,event
 Stay with the plant-based meal.,,Vegetarian,18-24 years old,Undergraduate Student Event
 ,Stay with the meal with meat.,Vegan,18-24 years old,Undergraduate Student Event
 Switch to a meal with meat.,,None of the above,18-24 years old,Undergraduate Student Event
