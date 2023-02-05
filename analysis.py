@@ -227,67 +227,24 @@ class SurveyResponse:
 
     @staticmethod
     def init_asu(asu_dict: dict, source: ResponseSource) -> "SurveyResponse":
-        diet_map = {
-            "Other": Diet.WRITTEN,
-            "Vegetarian": Diet.VEGETARIAN,
-            "Vegan": Diet.VEGAN,
-            "None of the above": Diet.OMNIVORE,
-            "Pescatarian": Diet.PESCATARIAN,
-            "": None,
-        }
-        race_map = {
-            "White": Race.WHITE,
-            "Asian": Race.ASIAN,
-            "Black of African American": Race.BLACK_AA,
-            "Other": Race.WRITTEN,
-            "Prefer not to say": None,
-            "": None,
-        }
-        satisfaction_map = {
-            "Very unsatisfied": Likert.STRONGLY_DISAGREE,
-            "Unsatisfied": Likert.DISAGREE,
-            "Neither satisfied nor unsatisfied": Likert.NEUTRAL,
-            "Satisfied": Likert.AGREE,
-            "Very satisfied": Likert.STRONGLY_AGREE,
-            "": None,
-        }
-        importance_map = {
-            "Not important": Likert.STRONGLY_DISAGREE,
-            "Not too important": Likert.DISAGREE,
-            # "Not too important": Likert.NEUTRAL,
-            "Important": Likert.AGREE,
-            "Very important": Likert.STRONGLY_AGREE,
-            "": None,
-        }
         return SurveyResponse(
             uuid=uuid4(),
             source_id=asu_dict["ID"],
             source=source,
-            default_meal=Meal.MEAT if "Meat" in asu_dict["Group"] else Meal.VEG,
-            selected_meal=Meal.MEAT
-            if "meat" in (asu_dict["DefaultVeg"] or asu_dict["DefaultMeat"])
-            else Meal.VEG,
-            eaten_meal=(
-                asu_dict["MealServed"]
-                and (Meal.MEAT if "meat" in asu_dict["MealServed"] else Meal.VEG)
-            )
-            or None,
-            diet=diet_map[asu_dict["Default_Selection"]],
+            default_meal=Meal.parse(asu_dict["Group"]),
+            selected_meal=Meal.parse(asu_dict["DefaultVeg"]),
+            eaten_meal=Meal.parse(asu_dict["MealServed"]),
+            diet=Diet.parse(asu_dict["Default_Selection"]),
             diet_text=asu_dict["Diet"],
-            race=race_map[asu_dict["Gender"]],
+            race=Race.parse(asu_dict["Gender"]),
             race_text=asu_dict["Race"],
-            ethnicity=Ethnicity.NON_LATIN
-            if "Non" in asu_dict["Race_6_TEXT"]
-            else (Ethnicity.LATIN if "Latin" in asu_dict["Race_6_TEXT"] else None),
-            gender=Gender.MALE
-            if "Male" == asu_dict["AgeGroup"]
-            else (Gender.FEMALE if "Female" == asu_dict["AgeGroup"] else None),
-            age=(asu_dict["Diet_4_TEXT"][:5] and AgeRange(asu_dict["Diet_4_TEXT"][:5]))
-            or None,
-            role=(asu_dict["Hispanic"] and Role(asu_dict["Hispanic"].lower())) or None,
-            is_satisfied=satisfaction_map[asu_dict["Satisfaction"]],
-            veg_is_important=importance_map[asu_dict["Plant_Importance"]],
-            importance_reason=asu_dict["Plant_Importance_Why"],
+            ethnicity=Ethnicity.parse(asu_dict["Race_6_TEXT"]),
+            gender=Gender.parse(asu_dict["AgeGroup"]),
+            age=AgeRange.parse(asu_dict["Diet_4_TEXT"]),
+            role=Role.parse(asu_dict["Hispanic"]),
+            is_satisfied=AgeRange.parse(asu_dict["Satisfaction"]),
+            veg_is_important=Likert.parse(asu_dict["Plant_Importance"]),
+            importance_reason=Likert.parse(asu_dict["Plant_Importance_Why"]),
             other_fields={},
         )
 
